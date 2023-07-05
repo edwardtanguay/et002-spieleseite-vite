@@ -26,7 +26,7 @@ export const PageWelcome = () => {
 		<button class="btnProcess">Auswerten</button>		
 	</form>
 	<section>
-		<div class="card">
+		<div class="card cardMatrosen">
 			<h2>0</h2>
 			<div class="title">Matrosen</div>
 		</div>
@@ -51,9 +51,19 @@ export const attachPageWelcomeEvents = () => {
     const schiff1Elem = document.querySelector<HTMLInputElement>('#ship1');
     const schiff2Elem = document.querySelector<HTMLInputElement>("#ship2");
     const schiff3Elem = document.querySelector<HTMLInputElement>("#ship3");
+
+	const matrosenElem = document.querySelector<HTMLInputElement>("div.cardMatrosen h2");
+	
 	const men1 = schiffe.find((m) => m.name === schiff1Elem?.value)?.amount;
 	const men2 = schiffe.find((m) => m.name === schiff2Elem?.value)?.amount;
 	const men3 = schiffe.find((m) => m.name === schiff3Elem?.value)?.amount;
-	console.log(men1,men2,men3);
+
+	const totalMen = men1 + men2 + men3;
+	console.log(matrosenElem?.innerHTML)
+	// matrosenElem?.innerHTML = 'nnn';
+	  
+
+
+	console.log(men1,men2,men3,totalMen);
   });
 }
