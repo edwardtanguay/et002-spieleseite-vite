@@ -1,10 +1,10 @@
 import * as tools from "./tools";
 import { PageKampf, attachPageKampfEvents } from "./pages/PageKampf";
-import { PageInfo } from "./pages/PageInfo";
+import { PageHandel } from "./pages/PageHandel";
 import { PageAbout } from "./pages/PageAbout";
 import { Page404 } from "./pages/Page404";
 
-const pageNames = ["Kampf", "Info", "About"];
+const pageNames = ["Kampf", "Handel", "About"];
 
 const currentPageIdCode = getSmartCurrentPageId();
 
@@ -12,8 +12,8 @@ export const getCurrentPage = () => {
   switch (currentPageIdCode) {
     case "kampf":
       return PageKampf();
-    case "info":
-      return PageInfo();
+    case "handel":
+      return PageHandel();
     case "about":
       return PageAbout();
     default:
