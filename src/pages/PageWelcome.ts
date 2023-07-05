@@ -48,11 +48,10 @@ export const attachPageWelcomeEvents = () => {
 	btn?.addEventListener('click', (e: Event) => {
     e.preventDefault();
 
-    const schiff1 = document.querySelector<HTMLInputElement>('#ship1');
-    const schiff2 = document.querySelector<HTMLInputElement>('#ship2');
-    const schiff3 = document.querySelector<HTMLInputElement>('#ship3');
-
-
-    console.log("button pressed");
+    const schiff1Elem = document.querySelector<HTMLInputElement>('#ship1');
+    const schiff2Elem = document.querySelector<HTMLInputElement>("#ship2");
+    const schiff3Elem = document.querySelector<HTMLInputElement>("#ship3");
+	const men1 = schiffe.find((m) => m.name === schiff1Elem?.value)?.amount;
+	console.log(men1);
   });
 }
