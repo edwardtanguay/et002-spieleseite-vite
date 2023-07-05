@@ -1,8 +1,6 @@
 import schiffe from "../data/schiffe.json";
 import waffen from "../data/waffen.json";
 
-// test comment from Edward
-
 export const PageKampf = () => {
   return /*html*/ `
 <div class="page PageKampf">
