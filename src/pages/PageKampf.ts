@@ -1,13 +1,13 @@
 import schiffe from "../data/schiffe.json";
 import waffen from "../data/waffen.json";
 
-
 // test comment from Edward
 
-export const PageWelcome = () => {
+export const PageKampf = () => {
   return /*html*/ `
-<div class="page pageWelcome">
-	<h1 class="errorMessage"></h1>
+<div class="page PageKampf">
+	<h2 class="errorMessage"></h2>
+  <h2 class="überschrift">Kampf</h2>
 	<form action="">
 		<label for="ship1">Schiff 1</label>
 			<select id="ship1" name="ships">
@@ -27,7 +27,7 @@ export const PageWelcome = () => {
               return `<option value="${ship.name}">${ship.name}</option>`;
             })}
   			</select>
-		<button class="btnProcess">Auswerten</button>		
+		<button class="btnProcess">berechnen</button>		
 	</form>
 	<section>
 		<div class="card cardMatrosen">
@@ -47,7 +47,7 @@ export const PageWelcome = () => {
 `;
 };
 
-export const attachPageWelcomeEvents = () => {
+export const attachPageKampfEvents = () => {
   const btn = document.querySelector(".btnProcess");
   btn?.addEventListener("click", (e: Event) => {
     e.preventDefault();
@@ -59,9 +59,8 @@ export const attachPageWelcomeEvents = () => {
     const _matrosenElem = document.querySelector<HTMLInputElement>(
       "div.cardMatrosen h2"
     );
-    const _swordsElem = document.querySelector<HTMLInputElement>(
-      "div.cardSwords h2"
-    );
+    const _swordsElem =
+      document.querySelector<HTMLInputElement>("div.cardSwords h2");
     const _firearmsElem = document.querySelector<HTMLInputElement>(
       "div.cardFirearms h2"
     );
@@ -70,10 +69,17 @@ export const attachPageWelcomeEvents = () => {
     const _men2 = schiffe.find((m) => m.name === schiff2Elem?.value)?.amount;
     const _men3 = schiffe.find((m) => m.name === schiff3Elem?.value)?.amount;
 
-    if (_matrosenElem && _swordsElem && _firearmsElem && _men1 && _men2 && _men3) {
+    if (
+      _matrosenElem &&
+      _swordsElem &&
+      _firearmsElem &&
+      _men1 &&
+      _men2 &&
+      _men3
+    ) {
       const matrosenElem = _matrosenElem;
-	  const swordsElem = _swordsElem;
-	  const firearmsElem = _firearmsElem;
+      const swordsElem = _swordsElem;
+      const firearmsElem = _firearmsElem;
 
       const men1 = _men1;
       const men2 = _men2;
