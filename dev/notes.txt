@@ -1,0 +1,6 @@
+-die männer für die schiffe anzeigen lassen
+    -die Anzeigenbereiche erstellen und 0 ausgeben lassen
+    -die variablen erstellen (men1,men2,men3)
+    -die variablen addieren um totalMen zu bekommen
+    -totalMen ausgeben lassen
+    -totalMen nutzen um Säbel und Musketen zu berechnen

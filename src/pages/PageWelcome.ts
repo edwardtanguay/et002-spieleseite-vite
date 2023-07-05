@@ -33,11 +33,9 @@ export const attachPageWelcomeEvents = () => {
     e.preventDefault();
 
     const schiff1 = document.querySelector<HTMLInputElement>('#ship1');
-    console.log(schiff1.value);
     const schiff2 = document.querySelector<HTMLInputElement>('#ship2');
-    console.log(schiff2.value);
     const schiff3 = document.querySelector<HTMLInputElement>('#ship3');
-    console.log(schiff3.value);
+
 
     console.log("button pressed");
   });
