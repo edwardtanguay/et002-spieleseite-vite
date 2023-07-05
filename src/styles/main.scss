@@ -61,5 +61,17 @@ body {
 				}
 			}
 		}
+		.pageWelcome {
+			section {
+				display: flex;
+				gap: 10rem;
+				margin-top: 2rem;
+				.card {
+					background-color: #111;
+					padding: 1rem;
+					color: #87cefa;
+				}
+			}
+		}
 	}
 }
