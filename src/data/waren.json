@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Holz",
+    "bd": 0.0133333
+  },
+  {
+    "name": "Ziegel",
+    "bd": 2.6666666
+  },
+  {
+    "name": "Weizen",
+    "bd": 2.6666666
+  },
+  {
+    "name": "Obst",
+    "bd": 0.0211111
+  },
+  {
+    "name": "Mais",
+    "bd": 0.01
+  },
+  {
+    "name": "Zucker",
+    "bd": 0.01
+  },
+  {
+    "name": "Hanf",
+    "bd": 0.01
+  },
+  {
+    "name": "Tuch",
+    "bd": 0.0044444
+  },
+  {
+    "name": "Metall",
+    "bd": 0.0044444
+  },
+  {
+    "name": "Baumwolle",
+    "bd": 0.01
+  },
+  {
+    "name": "Werkzeug",
+    "bd": 0.0044444
+  },
+  {
+    "name": "Färbemittel",
+    "bd": 0.0022222
+  },
+  {
+    "name": "Kaffee",
+    "bd": 0.0044444
+  },
+  {
+    "name": "Kakao",
+    "bd": 0.0044444
+  },
+  {
+    "name": "Tabak",
+    "bd": 0.0044444
+  },
+  {
+    "name": "Fleisch",
+    "bd": 0.0044444
+  },
+  {
+    "name": "Kleidung",
+    "bd": 0.0044444
+  },
+  {
+    "name": "Seil",
+    "bd": 0.0044444
+  },
+  {
+    "name": "Rum",
+    "bd": 0.01
+  },
+  {
+    "name": "Backwaren",
+    "bd": 0.0044444
+  }
+]
