@@ -84,7 +84,7 @@ export const attachPageKampfEvents = () => {
 
       const totalMen = men1 + men2 + men3;
       const totalSwords = Math.round(totalMen * 0.7);
-      const totalFirearms = totalMen * 0.3;
+      const totalFirearms = Math.round(totalMen * 0.3);
 
       matrosenElem.innerHTML = String(totalMen);
       swordsElem.innerHTML = String(totalSwords);

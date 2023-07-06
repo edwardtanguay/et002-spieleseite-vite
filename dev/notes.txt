@@ -4,3 +4,11 @@
     - die variablen addieren um totalMen zu bekommen
     - totalMen ausgeben lassen
     - totalMen nutzen um Säbel und Musketen zu berechnen
+
+    06.07.2023
+
+    - button berechnen 
+        - attachEventlistener mit Dummydaten
+        - holzElem variable erstellen , bewohner variable erstellen
+        - if varible exist statement
+        -  Holz Anzahl berechnen Bewohner*bdholz=holzElementvalue
