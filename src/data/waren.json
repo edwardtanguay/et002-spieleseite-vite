@@ -5,11 +5,11 @@
   },
   {
     "name": "Ziegel",
-    "bd": 2.6666666
+    "bd": 0.0266666
   },
   {
     "name": "Weizen",
-    "bd": 2.6666666
+    "bd": 0.0266666
   },
   {
     "name": "Obst",
@@ -69,14 +69,14 @@
   },
   {
     "name": "Seil",
-    "bd": 0.0044444
-  },
-  {
-    "name": "Rum",
     "bd": 0.01
   },
   {
-    "name": "Backwaren",
+    "name": "Rum",
     "bd": 0.0044444
+  },
+  {
+    "name": "Backwaren",
+    "bd": 0.01
   }
 ]
