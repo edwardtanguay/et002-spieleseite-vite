@@ -225,15 +225,20 @@ export const attachPageHandelEvents = () => {
 	const _bewohneranzahlElem = document.querySelector<HTMLInputElement>(
       "#bewohneranzahl"
     );
+	const _bdrholzElem =
+    document.querySelector<HTMLInputElement>(".bdrholz");
 
 
 
 	if (
-      _bewohneranzahlElem
+      _bewohneranzahlElem &&
+	  _bdrholzElem
 
     ) {  
 		const bewohneranzahlElem = _bewohneranzahlElem;
-		console.log(bewohneranzahlElem.value);
+		const bdrholzElem = _bdrholzElem;
+
+		bdrholzElem.innerHTML = bewohneranzahlElem.value;
 	}else {
       const _errorMessageElem =
         document.querySelector<HTMLInputElement>(".errorMessage");
