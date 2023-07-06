@@ -1,6 +1,6 @@
 import * as tools from "./tools";
 import { PageKampf, attachPageKampfEvents } from "./pages/PageKampf";
-import { PageHandel } from "./pages/PageHandel";
+import { PageHandel, attachPageHandelEvents } from "./pages/PageHandel";
 import { PageAbout } from "./pages/PageAbout";
 import { Page404 } from "./pages/Page404";
 
@@ -63,4 +63,5 @@ function getSmartCurrentPageId() {
 
 export const attachEvents = () => {
   attachPageKampfEvents();
+  attachPageHandelEvents();
 };

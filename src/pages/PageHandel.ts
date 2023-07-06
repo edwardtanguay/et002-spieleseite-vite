@@ -136,7 +136,7 @@ export const PageHandel = () => {
 	<h3>Bedarfsrechner</h3>
 	<form action="">
 		<label for="bewohner">Bewohner</label>
-		<input type="text" name="" id="">
+		<input type="text" name="" id="bewohneranzahl">
 		<button class="btnProcess">berechnen</button>
 	</form>
 	<section class="bedarfsrechner">
@@ -216,3 +216,34 @@ export const PageHandel = () => {
 </div>
 `;
 };
+
+export const attachPageHandelEvents = () => {
+  const btn = document.querySelector(".btnProcess");
+  btn?.addEventListener("click", (e: Event) => {
+    e.preventDefault();
+
+	const _bewohneranzahlElem = document.querySelector<HTMLInputElement>(
+      "#bewohneranzahl"
+    );
+
+
+
+	if (
+      _bewohneranzahlElem
+
+    ) {  
+		const bewohneranzahlElem = _bewohneranzahlElem;
+		console.log(bewohneranzahlElem.value);
+	}else {
+      const _errorMessageElem =
+        document.querySelector<HTMLInputElement>(".errorMessage");
+     
+      
+
+      if (_errorMessageElem) {
+        const errorMessageElem = _errorMessageElem;
+        errorMessageElem.innerHTML = "There was an error on the site.";
+      }
+    }
+  })
+}
