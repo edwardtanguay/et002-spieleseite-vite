@@ -228,17 +228,19 @@ export const attachPageHandelEvents = () => {
 	const _bdrholzElem =
     document.querySelector<HTMLInputElement>(".bdrholz");
 
+	const _bdholz = waren.find((m) => m.name === "Holz")?.bd;
 
 
 	if (
       _bewohneranzahlElem &&
-	  _bdrholzElem
-
+	  _bdrholzElem &&
+	  _bdholz
     ) {  
 		const bewohneranzahlElem = _bewohneranzahlElem;
 		const bdrholzElem = _bdrholzElem;
+		const bdholz = _bdholz;		
 
-		bdrholzElem.innerHTML = bewohneranzahlElem.value;
+		bdrholzElem.innerHTML = String(bdholz);
 	}else {
       const _errorMessageElem =
         document.querySelector<HTMLInputElement>(".errorMessage");
