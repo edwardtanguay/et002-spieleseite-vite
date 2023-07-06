@@ -4,7 +4,7 @@ export const PageHandel = () => {
   return /*html*/ `
 <div class="PageHandel">
 	<h2 class="überschrift">Handel</h2>
-	<!-- <h3>Preisliste normal</h3>
+	<h3>Preisliste normal</h3>
 	<section class="preisliste">
 		<table>
 			<thead>
@@ -132,7 +132,7 @@ export const PageHandel = () => {
 				</tr>
 			</tbody>
 		</table>
-	</section> -->
+	</section>
 	<h3>Bedarfsrechner</h3>
 	<form action="">
 		<label for="bewohner">Bewohner</label>
