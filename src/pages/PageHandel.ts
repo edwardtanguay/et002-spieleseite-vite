@@ -139,7 +139,7 @@ export const PageHandel = () => {
 		<input type="text" name="" placeholder="Anzahl" id="bewohneranzahl">
 		<label for="bewohner">Bewohner</label>
 		für
-		<input type="text" name="" placeholder="nur volle Tage" id="tage">
+		<input type="text" name="" placeholder="volle Tage" id="tage">
 		Tage
 		<button class="btnProcess">berechnen</button>
 		<input type="reset">
