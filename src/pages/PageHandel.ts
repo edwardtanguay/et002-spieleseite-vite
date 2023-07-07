@@ -136,7 +136,7 @@ export const PageHandel = () => {
 	<h3>Bedarfsrechner</h3>
 	<form action="">
 		Bedarf für
-		<input type="text" name="" id="bewohneranzahl">
+		<input type="text" name="" placeholder="Anzahl" id="bewohneranzahl">
 		<label for="bewohner">Bewohner</label>
 		für
 		<input type="text" name="" placeholder="nur volle Tage" id="tage">
