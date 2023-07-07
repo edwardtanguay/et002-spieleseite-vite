@@ -135,8 +135,12 @@ export const PageHandel = () => {
 	</section>
 	<h3>Bedarfsrechner</h3>
 	<form action="">
-		<label for="bewohner">Bewohner</label>
+		Bedarf für
 		<input type="text" name="" id="bewohneranzahl">
+		<label for="bewohner">Bewohner</label>
+		für
+		<input type="text" name="" id="tage">
+		Tage
 		<button class="btnProcess">berechnen</button>
 	</form>
 	<section class="bedarfsrechner">
@@ -223,8 +227,11 @@ export const attachPageHandelEvents = () => {
     e.preventDefault();
 
 	const _bewohneranzahlElem = document.querySelector<HTMLInputElement>(
-      "#bewohneranzahl"
-    );
+      "#bewohneranzahl");
+	
+	const _tageElem =
+    document.querySelector<HTMLInputElement>("#tage");
+
 	const _bdrholzElem =
     document.querySelector<HTMLInputElement>(".bdrholz");
 	const _bdholz = waren.find((m) => m.name === "Holz")?.bd;
@@ -296,6 +303,7 @@ export const attachPageHandelEvents = () => {
 
 	if (
     _bewohneranzahlElem &&
+	_tageElem &&
     _bdrholzElem &&
     _bdholz &&
     _bdrziegelElem &&
@@ -338,125 +346,166 @@ export const attachPageHandelEvents = () => {
 	_bdbackwaren
   ) {
     const bewohneranzahlElem = _bewohneranzahlElem;
+	const tageElem = _tageElem
 
     const bdrholzElem = _bdrholzElem;
     const bdholz = _bdholz;
     bdrholzElem.innerHTML = String(
-      Math.round(Number(bewohneranzahlElem.value) * bdholz)
+      Math.round(Number(bewohneranzahlElem.value) * bdholz * Number(tageElem.value))
     );
 
     const bdrziegelElem = _bdrziegelElem;
     const bdziegel = _bdziegel;
     bdrziegelElem.innerHTML = String(
-      Math.round(Number(bewohneranzahlElem.value) * bdziegel)
+      Math.round(
+        Number(bewohneranzahlElem.value) * bdziegel * Number(tageElem.value)
+      )
     );
 
     const bdrweizenElem = _bdrweizenElem;
     const bdweizen = _bdweizen;
     bdrweizenElem.innerHTML = String(
-      Math.round(Number(bewohneranzahlElem.value) * bdweizen)
+      Math.round(
+        Number(bewohneranzahlElem.value) * bdweizen * Number(tageElem.value)
+      )
     );
 
     const bdrobstElem = _bdrobstElem;
     const bdobst = _bdobst;
     bdrobstElem.innerHTML = String(
-      Math.round(Number(bewohneranzahlElem.value) * bdobst)
+      Math.round(
+        Number(bewohneranzahlElem.value) * bdobst * Number(tageElem.value)
+      )
     );
 
     const bdrmaisElem = _bdrmaisElem;
     const bdmais = _bdmais;
     bdrmaisElem.innerHTML = String(
-      Math.round(Number(bewohneranzahlElem.value) * bdmais)
+      Math.round(
+        Number(bewohneranzahlElem.value) * bdmais * Number(tageElem.value)
+      )
     );
 
     const bdrzuckerElem = _bdrzuckerElem;
     const bdzucker = _bdzucker;
     bdrzuckerElem.innerHTML = String(
-      Math.round(Number(bewohneranzahlElem.value) * bdzucker)
+      Math.round(
+        Number(bewohneranzahlElem.value) * bdzucker * Number(tageElem.value)
+      )
     );
 
     const bdrhanfElem = _bdrhanfElem;
     const bdhanf = _bdhanf;
     bdrhanfElem.innerHTML = String(
-      Math.round(Number(bewohneranzahlElem.value) * bdhanf)
+      Math.round(
+        Number(bewohneranzahlElem.value) * bdhanf * Number(tageElem.value)
+      )
     );
 
     const bdrtuchElem = _bdrtuchElem;
     const bdtuch = _bdtuch;
     bdrtuchElem.innerHTML = String(
-      Math.round(Number(bewohneranzahlElem.value) * bdtuch)
+      Math.round(
+        Number(bewohneranzahlElem.value) * bdtuch * Number(tageElem.value)
+      )
     );
 
     const bdrmetallElem = _bdrmetallElem;
     const bdmetall = _bdmetall;
     bdrmetallElem.innerHTML = String(
-      Math.round(Number(bewohneranzahlElem.value) * bdmetall)
+      Math.round(
+        Number(bewohneranzahlElem.value) * bdmetall * Number(tageElem.value)
+      )
     );
 
     const bdrbaumwolleElem = _bdrbaumwolleElem;
     const bdbaumwolle = _bdbaumwolle;
     bdrbaumwolleElem.innerHTML = String(
-      Math.round(Number(bewohneranzahlElem.value) * bdbaumwolle)
+      Math.round(
+        Number(bewohneranzahlElem.value) * bdbaumwolle * Number(tageElem.value)
+      )
     );
 
     const bdrwerkzeugElem = _bdrwerkzeugElem;
     const bdwerkzeug = _bdwerkzeug;
     bdrwerkzeugElem.innerHTML = String(
-      Math.round(Number(bewohneranzahlElem.value) * bdwerkzeug)
+      Math.round(
+        Number(bewohneranzahlElem.value) * bdwerkzeug * Number(tageElem.value)
+      )
     );
 
     const bdrfärbemittelElem = _bdrfärbemittelElem;
     const bdfärbemittel = _bdfärbemittel;
     bdrfärbemittelElem.innerHTML = String(
-      Math.round(Number(bewohneranzahlElem.value) * bdfärbemittel)
+      Math.round(
+        Number(bewohneranzahlElem.value) *
+          bdfärbemittel *
+          Number(tageElem.value)
+      )
     );
 
     const bdrkaffeeElem = _bdrkaffeeElem;
     const bdkaffee = _bdkaffee;
     bdrkaffeeElem.innerHTML = String(
-      Math.round(Number(bewohneranzahlElem.value) * bdkaffee)
+      Math.round(
+        Number(bewohneranzahlElem.value) * bdkaffee * Number(tageElem.value)
+      )
     );
 
     const bdrkakaoElem = _bdrkakaoElem;
     const bdkakao = _bdkakao;
     bdrkakaoElem.innerHTML = String(
-      Math.round(Number(bewohneranzahlElem.value) * bdkakao)
+      Math.round(
+        Number(bewohneranzahlElem.value) * bdkakao * Number(tageElem.value)
+      )
     );
 
 	const bdrtabakElem = _bdrtabakElem;
   	const bdtabak = _bdtabak;
   	bdrtabakElem.innerHTML = String(
-      Math.round(Number(bewohneranzahlElem.value) * bdtabak)
+      Math.round(
+        Number(bewohneranzahlElem.value) * bdtabak * Number(tageElem.value)
+      )
     );
 
 	const bdrfleischElem = _bdrfleischElem;
   	const bdfleisch = _bdfleisch;
   	bdrfleischElem.innerHTML = String(
-      Math.round(Number(bewohneranzahlElem.value) * bdfleisch)
+      Math.round(
+        Number(bewohneranzahlElem.value) * bdfleisch * Number(tageElem.value)
+      )
     );
 
 	const bdrkleidungElem = _bdrkleidungElem;
   	const bdkleidung = _bdkleidung;
   	bdrkleidungElem.innerHTML = String(
-      Math.round(Number(bewohneranzahlElem.value) * bdkleidung)
+      Math.round(
+        Number(bewohneranzahlElem.value) * bdkleidung * Number(tageElem.value)
+      )
     );
 
 	const bdrseilElem = _bdrseilElem;
   	const bdseil = _bdseil;
  	bdrseilElem.innerHTML = String(
-    Math.round(Number(bewohneranzahlElem.value) * bdseil)
-  	);
+    Math.round(
+      Number(bewohneranzahlElem.value) * bdseil * Number(tageElem.value)
+    )
+  );
 
 	const bdrrumElem = _bdrrumElem;
   	const bdrum = _bdrum;
   	bdrrumElem.innerHTML = String(
-      Math.round(Number(bewohneranzahlElem.value) * bdrum)
+      Math.round(
+        Number(bewohneranzahlElem.value) * bdrum * Number(tageElem.value)
+      )
     );
 
 	const bdrbackwarenElem = _bdrbackwarenElem;
   	const bdbackwaren = _bdbackwaren;
   	bdrbackwarenElem.innerHTML = String(
-      Math.round(Number(bewohneranzahlElem.value) * bdbackwaren)
+      Math.round(
+        Number(bewohneranzahlElem.value) * bdbackwaren * Number(tageElem.value)
+      )
     );
   } else {
     const _errorMessageElem =
