@@ -2,101 +2,101 @@
   {
     "name": "Holz",
     "bd": 0.0133333,
-    "herStadt":[]
+    "herstadt":[]
   },
   {
     "name": "Ziegel",
     "bd": 0.0266666,
-    "herStadt": []
+    "herstadt": []
   },
   {
     "name": "Weizen",
     "bd": 0.0266666,
-    "herStadt": []
+    "herstadt": []
   },
   {
     "name": "Obst",
     "bd": 0.0211111,
-    "herStadt": []
+    "herstadt": []
   },
   {
     "name": "Mais",
     "bd": 0.01,
-    "herStadt": []
+    "herstadt": []
   },
   {
     "name": "Zucker",
     "bd": 0.01,
-    "herStadt": []
+    "herstadt": []
   },
   {
     "name": "Hanf",
     "bd": 0.01,
-    "herStadt": []
+    "herstadt": []
   },
   {
     "name": "Tuch",
     "bd": 0.0044444,
-    "herStadt": []
+    "herstadt": []
   },
   {
     "name": "Metall",
     "bd": 0.0044444,
-    "herStadt": []
+    "herstadt": []
   },
   {
     "name": "Baumwolle",
     "bd": 0.01,
-    "herStadt": []
+    "herstadt": []
   },
   {
     "name": "Werkzeug",
     "bd": 0.0044444,
-    "herStadt": []
+    "herstadt": []
   },
   {
     "name": "Färbemittel",
     "bd": 0.0022222,
-    "herStadt": ["Florida", "New Orleans"]
+    "herstadt": ["Florida", "New Orleans"]
   },
   {
     "name": "Kaffee",
     "bd": 0.0044444,
-    "herStadt": []
+    "herstadt": []
   },
   {
     "name": "Kakao",
     "bd": 0.0044444,
-    "herStadt": []
+    "herstadt": []
   },
   {
     "name": "Tabak",
     "bd": 0.0044444,
-    "herStadt": []
+    "herstadt": []
   },
   {
     "name": "Fleisch",
     "bd": 0.0044444,
-    "herStadt": []
+    "herstadt": []
   },
   {
     "name": "Kleidung",
     "bd": 0.0044444,
-    "herStadt": []
+    "herstadt": []
   },
   {
     "name": "Seil",
     "bd": 0.01,
-    "herStadt": []
+    "herstadt": []
   },
   {
     "name": "Rum",
     "bd": 0.0044444,
-    "herStadt": []
+    "herstadt": []
   },
   {
     "name": "Backwaren",
     "bd": 0.01,
-    "herStadt": []
+    "herstadt": []
   }
 ]
