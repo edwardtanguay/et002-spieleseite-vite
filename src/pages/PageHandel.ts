@@ -139,9 +139,10 @@ export const PageHandel = () => {
 		<input type="text" name="" id="bewohneranzahl">
 		<label for="bewohner">Bewohner</label>
 		für
-		<input type="text" name="" id="tage">
+		<input type="text" name="" placeholder="nur volle Tage" id="tage">
 		Tage
 		<button class="btnProcess">berechnen</button>
+		<input type="reset">
 	</form>
 	<section class="bedarfsrechner">
 		<table>

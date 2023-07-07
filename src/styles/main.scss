@@ -129,7 +129,11 @@ body {
         }
       }
       #tage, #bewohneranzahl {
-        width: 10vw;
+        width: 15vw;
+        & :focus {
+          background-color: #111;
+          color: #87cefa;
+        }
       }
     }
   }
