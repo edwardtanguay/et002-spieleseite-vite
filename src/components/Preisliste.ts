@@ -1,4 +1,14 @@
+import waren from "../data/waren.json";
+
 export const Preisliste = () => {
+    let tableHtml="";
+
+    tableHtml += `<tr>
+						<td>Holz</td>
+						<td>39</td>
+						<td>60</td>
+                        <td>Stadt</td>
+					</tr>`;
   return /*html*/ `
   <div>
 		<h3>Preisliste normal</h3>
@@ -13,106 +23,8 @@ export const Preisliste = () => {
 					</tr>
 				</thead>
 				<tbody>
-					<tr>
-						<td>Holz</td>
-						<td>39</td>
-						<td>60</td>
-					</tr>
-					<tr>
-						<td>Ziegel</td>
-						<td>39</td>
-						<td>60</td>
-					</tr>
-					<tr>
-						<td>Weizen</td>
-						<td>39</td>
-						<td>60</td>
-					</tr>
-					<tr>
-						<td>Obst</td>
-						<td>60</td>
-						<td>90</td>
-					</tr>
-					<tr>
-						<td>Mais</td>
-						<td>60</td>
-						<td>90</td>
-					</tr>
-					<tr>
-						<td>Zucker</td>
-						<td>60</td>
-						<td>90</td>
-					</tr>
-					<tr>
-						<td>Hanf</td>
-						<td>60</td>
-						<td>90</td>
-					</tr>
-					<tr>
-						<td>Tuch</td>
-						<td>180</td>
-						<td>270</td>
-					</tr>
-					<tr>
-						<td>Metall</td>
-						<td>99</td>
-						<td>150</td>
-					</tr>
-					<tr>
-						<td>Baumwolle</td>
-						<td>60</td>
-						<td>90</td>
-					</tr>
-					<tr>
-						<td>Werkzeug</td>
-						<td>240</td>
-						<td>360</td>
-					</tr>
-					<tr>
-						<td>Färbemittel</td>
-						<td>120</td>
-						<td>180</td>
-					</tr>
-					<tr>
-						<td>Kaffee</td>
-						<td>168</td>
-						<td>252</td>
-					</tr>
-					<tr>
-						<td>Kakao</td>
-						<td>168</td>
-						<td>252</td>
-					</tr>
-					<tr>
-						<td>Tabak</td>
-						<td>120</td>
-						<td>180</td>
-					</tr>
-					<tr>
-						<td>Fleisch</td>
-						<td>360</td>
-						<td>540</td>
-					</tr>
-					<tr>
-						<td>Kleidung</td>
-						<td>540</td>
-						<td>810</td>
-					</tr>
-					<tr>
-						<td>Seil</td>
-						<td>180</td>
-						<td>270</td>
-					</tr>
-					<tr>
-						<td>Rum</td>
-						<td>320</td>
-						<td>480</td>
-					</tr>
-					<tr>
-						<td>Backwaren</td>
-						<td>170</td>
-						<td>255</td>
-					</tr>
+					${tableHtml}
+					
 				</tbody>
 			</table>
 		</section>
