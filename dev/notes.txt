@@ -12,3 +12,21 @@
         - holzElem variable erstellen , bewohner variable erstellen
         - if varible exist statement
         -  Holz Anzahl berechnen Bewohner*bdholz=holzElementvalue
+
+
+
+        <table>
+				<thead>
+					<tr>
+						<td>Ware</td>
+						<td>Ankauf</td>
+						<td>Verkauf</td>
+						<td>Herstellungsstädte</td>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Holz</td>
+						<td>39</td>
+						<td>60</td>
+					</tr>
