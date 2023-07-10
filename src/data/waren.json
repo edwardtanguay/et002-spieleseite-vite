@@ -27,7 +27,7 @@
   {
     "name": "Zucker",
     "bd": 0.0010588,
-    "herstadt": ["Cayman","Port au Prince","Santo Domingo","St. Augustine","Tortuga","Trinidad","Turk Islands"]
+    "herstadt": ["Cayman","Port au Prince","Port St Joe","Santo Domingo","St. Augustine","Tortuga","Trinidad","Turk Islands"]
   },
   {
     "name": "Hanf",
@@ -37,12 +37,12 @@
   {
     "name": "Tuch",
     "bd": 0.0005294,
-    "herstadt": ["Cat Island","Charleston","Eleuthera","Evangelista","Fort Caroline","Isabella","Nombre de Dios","Port au Prince","Santo Domingo","Trinidad"]
+    "herstadt": ["Cat Island","Charleston","Eleuthera","Evangelista","Fort Caroline","Isabella","Nombre de Dios","Port au Prince","Port St Joe","Santo Domingo","Trinidad"]
   },
   {
     "name": "Metall",
     "bd": 0.0005294,
-    "herstadt": ["Charles Towne","Gibara","Port Royale","Tampa"]
+    "herstadt": ["Charles Towne","Gibara","Port Royale","Port St Joe","Tampa"]
   },
   {
     "name": "Baumwolle",
@@ -57,7 +57,7 @@
   {
     "name": "Färbemittel",
     "bd": 0.0002352,
-    "herstadt": ["Charleston","Florida Keys","Fort Caroline","New Orleans","St. Augustine","Tampa"]
+    "herstadt": ["Charleston","Florida Keys","Fort Caroline","New Orleans","Port St Joe","St. Augustine","Tampa"]
   },
   {
     "name": "Kaffee",
@@ -97,6 +97,6 @@
   {
     "name": "Backwaren",
     "bd": 0.0010588,
-    "herstadt": ["Gibara","Nassau","Santo Domingo"]
+    "herstadt": ["Gibara","Nassau","Port St Joe","Santo Domingo"]
   }
 ]
