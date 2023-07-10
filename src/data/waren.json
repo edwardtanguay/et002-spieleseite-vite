@@ -1,102 +1,260 @@
 [
   {
     "name": "Holz",
+    "ankauf": 39,
+    "verkauf": 60,
     "bd": 0.0013333,
-    "herstadt":["Charleston","Isabella","Nombre de Dios","Santiago","Tampa","Trinidad"]
+    "herstadt": [
+      "Charleston",
+      "Isabella",
+      "Nombre de Dios",
+      "Santiago",
+      "Tampa",
+      "Trinidad"
+    ]
   },
   {
     "name": "Ziegel",
+    "ankauf": 39,
+    "verkauf": 60,
     "bd": 0.00270588,
-    "herstadt": ["Charleston","Florida Keys","Fort Caroline","Grand Bahama","Havanna","Port au Prince","Santo Domingo","St. Augustine"]
+    "herstadt": [
+      "Charleston",
+      "Florida Keys",
+      "Fort Caroline",
+      "Grand Bahama",
+      "Havanna",
+      "Port au Prince",
+      "Santo Domingo",
+      "St. Augustine"
+    ]
   },
   {
     "name": "Weizen",
+    "ankauf": 39,
+    "verkauf": 60,
     "bd": 0.00270588,
-    "herstadt": ["Andross","Gibara","Havanna","St. Augustine","Tampa"]
+    "herstadt": ["Andross", "Gibara", "Havanna", "St. Augustine", "Tampa"]
   },
   {
     "name": "Obst",
+    "ankauf": 60,
+    "verkauf": 90,
     "bd": 0.00217647,
-    "herstadt": ["Andross","Cat Island","Cayman","Charles Towne","Eleuthera","Evangelista","Florida Keys","Grand Bahama","Nassau"]
+    "herstadt": [
+      "Andross",
+      "Cat Island",
+      "Cayman",
+      "Charles Towne",
+      "Eleuthera",
+      "Evangelista",
+      "Florida Keys",
+      "Grand Bahama",
+      "Nassau"
+    ]
   },
   {
     "name": "Mais",
+    "ankauf": 60,
+    "verkauf": 90,
     "bd": 0.0010588,
-    "herstadt": ["Charles Towne","Florida Keys","Grand Bahama","Nassau","Port Royale"]
+    "herstadt": [
+      "Charles Towne",
+      "Florida Keys",
+      "Grand Bahama",
+      "Nassau",
+      "Port Royale"
+    ]
   },
   {
     "name": "Zucker",
+    "ankauf": 60,
+    "verkauf": 90,
     "bd": 0.0010588,
-    "herstadt": ["Cayman","Port au Prince","Port St Joe","Santo Domingo","St. Augustine","Tortuga","Trinidad","Turk Islands"]
+    "herstadt": [
+      "Cayman",
+      "Port au Prince",
+      "Port St Joe",
+      "Santo Domingo",
+      "St. Augustine",
+      "Tortuga",
+      "Trinidad",
+      "Turk Islands"
+    ]
   },
   {
     "name": "Hanf",
+    "ankauf": 60,
+    "verkauf": 90,
     "bd": 0.0010588,
-    "herstadt": ["Cat Island","Cayman","Eleuthera","Evangelista","Isabella","Nombre de Dios","Santiago","Tortuga","Turk Islands"]
+    "herstadt": [
+      "Cat Island",
+      "Cayman",
+      "Eleuthera",
+      "Evangelista",
+      "Isabella",
+      "Nombre de Dios",
+      "Santiago",
+      "Tortuga",
+      "Turk Islands"
+    ]
   },
   {
     "name": "Tuch",
+    "ankauf": 180,
+    "verkauf": 270,
     "bd": 0.0005294,
-    "herstadt": ["Cat Island","Charleston","Eleuthera","Evangelista","Fort Caroline","Isabella","Nombre de Dios","Port au Prince","Port St Joe","Santo Domingo","Trinidad"]
+    "herstadt": [
+      "Cat Island",
+      "Charleston",
+      "Eleuthera",
+      "Evangelista",
+      "Fort Caroline",
+      "Isabella",
+      "Nombre de Dios",
+      "Port au Prince",
+      "Port St Joe",
+      "Santo Domingo",
+      "Trinidad"
+    ]
   },
   {
     "name": "Metall",
+    "ankauf": 99,
+    "verkauf": 150,
     "bd": 0.0005294,
-    "herstadt": ["Charles Towne","Gibara","Port Royale","Port St Joe","Tampa"]
+    "herstadt": [
+      "Charles Towne",
+      "Gibara",
+      "Port Royale",
+      "Port St Joe",
+      "Tampa"
+    ]
   },
   {
     "name": "Baumwolle",
+    "ankauf": 60,
+    "verkauf": 90,
     "bd": 0.0010588,
-    "herstadt": ["Andross","Fort Caroline","Gibara","Havanna","Nassau","Port Royale","Santiago","Tortuga","Turk Islands"]
+    "herstadt": [
+      "Andross",
+      "Fort Caroline",
+      "Gibara",
+      "Havanna",
+      "Nassau",
+      "Port Royale",
+      "Santiago",
+      "Tortuga",
+      "Turk Islands"
+    ]
   },
   {
     "name": "Werkzeug",
+    "ankauf": 240,
+    "verkauf": 360,
     "bd": 0.0005294,
-    "herstadt": ["Cayman","Florida Keys","Port au Prince","Santiago","Trinidad"]
+    "herstadt": [
+      "Cayman",
+      "Florida Keys",
+      "Port au Prince",
+      "Santiago",
+      "Trinidad"
+    ]
   },
   {
     "name": "Färbemittel",
+    "ankauf": 120,
+    "verkauf": 180,
     "bd": 0.0002352,
-    "herstadt": ["Charleston","Florida Keys","Fort Caroline","New Orleans","Port St Joe","St. Augustine","Tampa"]
+    "herstadt": [
+      "Charleston",
+      "Florida Keys",
+      "Fort Caroline",
+      "New Orleans",
+      "Port St Joe",
+      "St. Augustine",
+      "Tampa"
+    ]
   },
   {
     "name": "Kaffee",
+    "ankauf": 168,
+    "verkauf": 252,
     "bd": 0.0005294,
     "herstadt": []
   },
   {
     "name": "Kakao",
+    "ankauf": 168,
+    "verkauf": 252,
     "bd": 0.0005294,
     "herstadt": []
   },
   {
     "name": "Tabak",
+    "ankauf": 120,
+    "verkauf": 180,
     "bd": 0.0005294,
-    "herstadt": ["Andross","Cat Island","Cayman","Charles Towne","Eleuthera","Evangelista","Gibara","Grand Bahama","Havanna","Isabella","Nassau","Nombre de Dios","Port au Prince","Port Royale","Santo Domingo","Santiago","Tortuga","Trinidad","Turk Islands"]
+    "herstadt": [
+      "Andross",
+      "Cat Island",
+      "Cayman",
+      "Charles Towne",
+      "Eleuthera",
+      "Evangelista",
+      "Gibara",
+      "Grand Bahama",
+      "Havanna",
+      "Isabella",
+      "Nassau",
+      "Nombre de Dios",
+      "Port au Prince",
+      "Port Royale",
+      "Santo Domingo",
+      "Santiago",
+      "Tortuga",
+      "Trinidad",
+      "Turk Islands"
+    ]
   },
   {
     "name": "Fleisch",
+    "ankauf": 360,
+    "verkauf": 540,
     "bd": 0.0005294,
-    "herstadt": ["Charleston","Fort Caroline"]
+    "herstadt": ["Charleston", "Fort Caroline"]
   },
   {
     "name": "Kleidung",
+    "ankauf": 540,
+    "verkauf": 810,
     "bd": 0.0005294,
-    "herstadt": ["Nombre de Dios","St. Augustine","Tampa","Turk Islands"]
+    "herstadt": ["Nombre de Dios", "St. Augustine", "Tampa", "Turk Islands"]
   },
   {
     "name": "Seil",
     "bd": 0.0010588,
-    "herstadt": ["Andross","Eleuthera","Evangelista","Isabella"]
+    "herstadt": ["Andross", "Eleuthera", "Evangelista", "Isabella"]
   },
   {
     "name": "Rum",
+    "ankauf": 320,
+    "verkauf": 480,
     "bd": 0.0005294,
-    "herstadt": ["Cat Island","Charles Towne","Grand Bahama","Havanna","Port Royale","Tortuga"]
+    "herstadt": [
+      "Cat Island",
+      "Charles Towne",
+      "Grand Bahama",
+      "Havanna",
+      "Port Royale",
+      "Tortuga"
+    ]
   },
   {
     "name": "Backwaren",
+    "ankauf": 170,
+    "verkauf": 255,
     "bd": 0.0010588,
-    "herstadt": ["Gibara","Nassau","Port St Joe","Santo Domingo"]
+    "herstadt": ["Gibara", "Nassau", "Port St Joe", "Santo Domingo"]
   }
 ]

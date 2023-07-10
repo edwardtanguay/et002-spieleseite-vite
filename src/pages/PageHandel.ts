@@ -156,22 +156,6 @@ export const PageHandel = () => {
 						<td>60</td>
 						<td>90</td>
 					</tr>
-				</tbody>
-			</table>
-		</section>
-	</div>
-	<div>
-		<section class="preisliste">	
-			<table>
-				<thead>
-					<tr>
-						<td>Ware</td>
-						<td>Ankauf</td>
-						<td>Verkauf</td>
-						<td>Herstellungsstädte</td>
-					</tr>
-				</thead>
-				<tbody>
 					<tr>
 						<td>Werkzeug</td>
 						<td>240</td>
@@ -544,7 +528,6 @@ export const attachPageHandelEvents = () => {
 	  Number(bdrbackwarenElem.innerHTML)
   ); 
 
-
   } else {
     const _errorMessageElem =
       document.querySelector<HTMLInputElement>(".errorMessage");
@@ -556,3 +539,5 @@ export const attachPageHandelEvents = () => {
   }
   })
 }
+
+
