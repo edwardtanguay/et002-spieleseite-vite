@@ -233,6 +233,8 @@
   },
   {
     "name": "Seil",
+    "ankauf": 180,
+    "verkauf": 270,
     "bd": 0.0010588,
     "herstadt": ["Andross", "Eleuthera", "Evangelista", "Isabella"]
   },
