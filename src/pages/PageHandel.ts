@@ -86,6 +86,8 @@ export const PageHandel = () => {
 						<td class="bdrbaumwolle">0</td>
 						<td>Backwaren</td>
 						<td class="bdrbackwaren">0</td>
+						<td>Gesamt Konvoigröße</td>
+						<td id="bdrkonvoi">0</td>
 					</tr>
 				</tbody>
 			</table>
@@ -240,6 +242,8 @@ export const attachPageHandelEvents = () => {
 	const _tageElem =
     document.querySelector<HTMLInputElement>("#tage");
 
+	const _bdrkonvoiElem = document.querySelector<HTMLInputElement>("#bdrkonvoi");
+
 	const _bdrholzElem =
     document.querySelector<HTMLInputElement>(".bdrholz");
 	const _bdholz = waren.find((m) => m.name === "Holz")?.bd;
@@ -351,7 +355,8 @@ export const attachPageHandelEvents = () => {
 	_bdrrumElem &&
 	_bdrum &&
 	_bdrbackwarenElem &&
-	_bdbackwaren
+	_bdbackwaren &&
+	_bdrkonvoiElem
   ) {
     const bewohneranzahlElem = _bewohneranzahlElem;
 	const tageElem = _tageElem
@@ -515,6 +520,31 @@ export const attachPageHandelEvents = () => {
         Number(bewohneranzahlElem.value) * bdbackwaren * Number(tageElem.value)
       )
     );
+	const bdrkonvoiElem = _bdrkonvoiElem;
+	bdrkonvoiElem.innerHTML = String(
+    Number(bdrholzElem.innerHTML) +
+      Number(bdrziegelElem.innerHTML) +
+      Number(bdrweizenElem.innerHTML) +
+      Number(bdrobstElem.innerHTML) +
+      Number(bdrmaisElem.innerHTML) +
+      Number(bdrzuckerElem.innerHTML) +
+      Number(bdrhanfElem.innerHTML) +
+      Number(bdrtuchElem.innerHTML) +
+      Number(bdrmetallElem.innerHTML) + 
+	  Number(bdrbaumwolleElem.innerHTML) + 
+	  Number(bdrwerkzeugElem.innerHTML) + 
+	  Number(bdrfärbemittelElem.innerHTML) + 
+	  Number(bdrkaffeeElem.innerHTML) + 
+	  Number(bdrkakaoElem.innerHTML) + 
+	  Number(bdrtabakElem.innerHTML) + 
+	  Number(bdrfleischElem.innerHTML) + 
+	  Number(bdrkleidungElem.innerHTML) + 
+	  Number(bdrseilElem.innerHTML) +
+	  Number(bdrrumElem.innerHTML) + 
+	  Number(bdrbackwarenElem.innerHTML)
+  ); 
+
+
   } else {
     const _errorMessageElem =
       document.querySelector<HTMLInputElement>(".errorMessage");
