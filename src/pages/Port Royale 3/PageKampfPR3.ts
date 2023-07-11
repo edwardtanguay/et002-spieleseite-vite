@@ -1,4 +1,4 @@
-import schiffe from "../data/schiffe.json";
+import schiffe from "../../data/schiffe.json";
 
 export const pageKampfPR3 = () => {
   return /*html*/ `
