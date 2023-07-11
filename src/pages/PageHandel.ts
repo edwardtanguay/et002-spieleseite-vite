@@ -6,7 +6,7 @@ export const PageHandel = () => {
 <div class="PageHandel">
 	<h2 class="überschrift">Handel</h2>
 		<div>
-			
+			${Preisliste()}
 		<h3>Bedarfsrechner</h3>
 		<form action="">
 		Bedarf für
@@ -95,7 +95,7 @@ export const PageHandel = () => {
 			</table>
 		</section>
 	</div>
-	${Preisliste()}
+	
 </div>
 `;
 };
