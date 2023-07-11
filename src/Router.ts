@@ -4,7 +4,8 @@ import { PageHandel, attachPageHandelEvents } from "./pages/PageHandel";
 import { PageAbout } from "./pages/PageAbout";
 import { Page404 } from "./pages/Page404";
 
-const pageNames = ["Kampf", "Handel", "About"];
+const PR3pageNames = ["Kampf", "Handel", "About"];
+const P4pageNames:string[] = [];
 
 const currentPageIdCode = getSmartCurrentPageId();
 
@@ -38,17 +39,35 @@ export const getMenu = () => {
 
   return /*html*/ `
 	<nav class="menu">
-		<ul>
-			${pageNames
-        .map(
-          (pageName) =>
-            `<li><a href="${getPageIdCode(pageName)}"${getMenuClass(
-              pageName
-            )}>${pageName}</a></li>`
-        )
-        .join("")}
-		</ul>
-	</nav>
+      <ul>
+        <li class="dropdown">
+          <a href="#" class="dropbtn">Port Royale 3</a>
+          <div class="dropdown-content">
+            ${PR3pageNames
+              .map(
+                (pageName) =>
+                  `<a href="${getPageIdCode(pageName)}"${getMenuClass(
+                    pageName
+                  )}>${pageName}</a>`
+              )
+              .join("")}
+          </div>
+        </li>
+        <li class="dropdown">
+          <a href="#" class="dropbtn">Patrizier 4</a>
+          <div class="dropdown-content">
+            ${P4pageNames
+              .map(
+                (pageName) =>
+                  `<a href="${getPageIdCode(pageName)}"${getMenuClass(
+                    pageName
+                  )}>${pageName}</a>`
+              )
+              .join("")}
+          </div>
+        </li>
+      </ul>
+    </nav>
 `;
 };
 
@@ -56,7 +75,7 @@ function getSmartCurrentPageId() {
   let currentPageIdCode = tools.getCurrentPageIdCode();
   currentPageIdCode =
     currentPageIdCode === ""
-      ? tools.cleanCharactersToAscii(pageNames[0].toLowerCase())
+      ? tools.cleanCharactersToAscii(PR3pageNames[0].toLowerCase())
       : currentPageIdCode;
   return currentPageIdCode;
 }
