@@ -31,6 +31,7 @@
     "verkauf": 60,
     "bd": 0.00270588,
     "herstadt": [
+      "Antigua",
       "Campeche",
       "Caracas",
       "Charleston",
@@ -40,11 +41,13 @@
       "Florida Keys",
       "Fort Caroline",
       "Grand Bahama",
+      "Guadeloupe",
       "Havanna",
       "New Orleans",
       "Port au Prince",
       "Santo Domingo",
       "St. Augustine",
+      "St. Martin",
       "Vera Cruz"
     ]
   },
@@ -63,6 +66,7 @@
       "Gibraltar",
       "Havanna",
       "Margarita",
+      "Martinique",
       "Port of Spain",
       "Puerto Cabello",
       "Roatán",
@@ -80,6 +84,8 @@
     "bd": 0.00217647,
     "herstadt": [
       "Andross",
+      "Antigua",
+      "Barbados",
       "Cat Island",
       "Cayman",
       "Charles Towne",
@@ -88,7 +94,13 @@
       "Florida Keys",
       "Grand Bahama",
       "Grenada",
-      "Nassau"
+      "Guadeloupe",
+      "Martinique",
+      "Nassau",
+      "San Juan",
+      "St. Kitts",
+      "St. Martin",
+      "St. Thome"
     ]
   },
   {
@@ -106,9 +118,14 @@
       "Florida Keys",
       "Grand Bahama",
       "Grenada",
+      "Guadeloupe",
       "Nassau",
       "Port Royale",
       "Santa Marta",
+      "St. Kitts",
+      "St. Lucia",
+      "St. Martin",
+      "St. Thome",
       "Vera Cruz"
     ]
   },
@@ -152,9 +169,11 @@
       "Grenada",
       "Isabella",
       "Margarita",
+      "Martinique",
       "Nombre de Dios",
       "Port of Spain",
       "Puerto Santo",
+      "San Juan",
       "Santa Marta",
       "Santiago",
       "Tortuga",
@@ -168,6 +187,8 @@
     "verkauf": 270,
     "bd": 0.0005294,
     "herstadt": [
+      "Antigua",
+      "Barbados",
       "Cat Island",
       "Charleston",
       "Eleuthera",
@@ -181,6 +202,7 @@
       "Port St Joe",
       "Providence",
       "Puerto Santo",
+      "San Juan",
       "Santo Domingo",
       "Trinidad"
     ]
@@ -191,6 +213,7 @@
     "verkauf": 150,
     "bd": 0.0005294,
     "herstadt": [
+      "Barbados",
       "Belize",
       "Biloxi",
       "Cancun",
@@ -205,6 +228,8 @@
       "Puerto Cabello",
       "Roatán",
       "Sisal",
+      "St. Kitts",
+      "St. Lucia",
       "Tampa"
     ]
   },
@@ -227,6 +252,8 @@
       "Puerto Cabello",
       "Santiago",
       "Sisal",
+      "St. Lucia",
+      "St. Thome",
       "Tortuga",
       "Turk Islands",
       "Vera Cruz"
@@ -242,6 +269,7 @@
       "Cayman",
       "Florida Keys",
       "Georgetown",
+      "Martinique",
       "Port au Prince",
       "Port of Spain",
       "Santiago",
@@ -294,15 +322,22 @@
     "verkauf": 252,
     "bd": 0.0005294,
     "herstadt": [
+      "Antigua",
+      "Barbados",
       "Caracas",
       "Coro",
       "Curacao",
       "Georgetown",
       "Grenada",
+      "Guadeloupe",
       "Margarita",
+      "Martinique",
       "Port of Spain",
       "Puerto Cabello",
-      "Puerto Santo"
+      "Puerto Santo",
+      "St. Kitts",
+      "St. Lucia",
+      "St. Martin"
     ]
   },
   {
@@ -325,8 +360,10 @@
       "Nombre de Dios",
       "Port au Prince",
       "Port Royale",
+      "San Juan",
       "Santo Domingo",
       "Santiago",
+      "St. Thome",
       "Tortuga",
       "Trinidad",
       "Turk Islands"
@@ -375,12 +412,15 @@
     "bd": 0.0010588,
     "herstadt": [
       "Andross",
+      "Antigua",
+      "Barbados",
       "Eleuthera",
       "Evangelista",
       "Grenada",
       "Isabella",
       "Providence",
-      "Puerto Cabello"
+      "Puerto Cabello",
+      "St. Lucia"
     ]
   },
   {
@@ -394,6 +434,10 @@
       "Grand Bahama",
       "Havanna",
       "Port Royale",
+      "San Juan",
+      "St. Kitts",
+      "St. Martin",
+      "St. Thome",
       "Tortuga"
     ]
   },
@@ -405,6 +449,7 @@
     "herstadt": [
       "Biloxi",
       "Gibara",
+      "Guadeloupe",
       "Margarita",
       "Nassau",
       "New Orleans",
