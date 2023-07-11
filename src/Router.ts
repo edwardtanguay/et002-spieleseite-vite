@@ -1,5 +1,5 @@
 import * as tools from "./tools";
-import { PageKampf, attachPageKampfEvents } from "./pages/PageKampf";
+import { pageKampfPR3, attachPageKampfPR3Events } from "./pages/PageKampfPR3";
 import { PageHandel, attachPageHandelEvents } from "./pages/PageHandel";
 import { PageAbout } from "./pages/PageAbout";
 import { Page404 } from "./pages/Page404";
@@ -12,7 +12,7 @@ const currentPageIdCode = getSmartCurrentPageId();
 export const getCurrentPage = () => {
   switch (currentPageIdCode) {
     case "kampf":
-      return PageKampf();
+      return pageKampfPR3();
     case "handel":
       return PageHandel();
     case "about":
@@ -81,6 +81,6 @@ function getSmartCurrentPageId() {
 }
 
 export const attachEvents = () => {
-  attachPageKampfEvents();
+  attachPageKampfPR3Events();
   attachPageHandelEvents();
 };

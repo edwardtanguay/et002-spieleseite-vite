@@ -1,8 +1,8 @@
 import schiffe from "../data/schiffe.json";
 
-export const PageKampf = () => {
+export const pageKampfPR3 = () => {
   return /*html*/ `
-<div class="page PageKampf">
+<div class="pageKampfPR3">
 	<h2 class="errorMessage"></h2>
   <h2 class="überschrift">Kampf</h2>
 	<form action="">
@@ -44,7 +44,7 @@ export const PageKampf = () => {
 `;
 };
 
-export const attachPageKampfEvents = () => {
+export const attachPageKampfPR3Events = () => {
   const btn = document.querySelector(".btnProcess");
   btn?.addEventListener("click", (e: Event) => {
     e.preventDefault();
