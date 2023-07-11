@@ -3,20 +3,23 @@ import { pageKampfPR3, attachPageKampfPR3Events } from "./pages/PageKampfPR3";
 import { PageHandel, attachPageHandelEvents } from "./pages/PageHandel";
 import { PageAbout } from "./pages/PageAbout";
 import { Page404 } from "./pages/Page404";
+import { PageHandelP4} from "./pages/PageHandelP4";
 
-const PR3pageNames = ["Kampf", "Handel", "About"];
-const P4pageNames:string[] = [];
+const PR3pageNames = ["Handel (PR3)", "Kampf (PR3)", "About"];
+const P4pageNames = ["Handel (P4)"];
 
 const currentPageIdCode = getSmartCurrentPageId();
 
 export const getCurrentPage = () => {
   switch (currentPageIdCode) {
-    case "kampf":
+    case "kampf(pr3)":
       return pageKampfPR3();
-    case "handel":
+    case "handel(pr3)":
       return PageHandel();
     case "about":
       return PageAbout();
+    case "handel(p4)":
+      return PageHandelP4();
     default:
       return Page404();
   }
