@@ -15,7 +15,7 @@ export const Preisliste = () => {
 
   return /*html*/ `
   <div>
-		<h3>Preisliste normal</h3>
+		<h2 class="überschrift">Preisliste normal</h2>
 		<section class="preisliste">
 			<table>
 				<thead>

@@ -12,7 +12,7 @@ import { Page404 } from "./pages/Page404";
 import { PageHandelP4 } from "./pages/Patrizier 4/PageHandelP4";
 import { PagePreislistePR3 } from "./pages/Port Royale 3/PagePreislistePR3";
 
-const PR3pageNames = ["Preisliste","Handel (PR3)", "Kampf (PR3)", "About (PR3)"];
+const PR3pageNames = ["Preisliste (PR3)","Bedarfsrechner (PR3)", "Kampf (PR3)", "About (PR3)"];
 const P4pageNames = ["Handel (P4)"];
 
 const currentPageIdCode = getSmartCurrentPageId();
@@ -21,7 +21,7 @@ export const getCurrentPage = () => {
   switch (currentPageIdCode) {
     case "preisliste(pr3)":
       return PagePreislistePR3();
-    case "handel(pr3)":
+    case "bedarfsrechner(pr3)":
       return PageBedarfsrechnerPR3();
     case "kampf(pr3)":
       return pageKampfPR3();

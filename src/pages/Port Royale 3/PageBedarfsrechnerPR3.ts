@@ -2,11 +2,9 @@ import waren from "../../data/Port Royale 3/waren.json";
 
 export const PageBedarfsrechnerPR3 = () => {
   return /*html*/ `
-<div class="PageBedarfsrechner">
-	<h2 class="überschrift">Handel</h2>
+<div class="PageBedarfsrechnerPR3">
+	<h2 class="überschrift">Bedarfsrechner</h2>
 		<div>
-		
-		<h3>Bedarfsrechner</h3>
 		<form action="">
 		Bedarf für
 			<input type="text" name="" placeholder="Anzahl" id="bewohneranzahl">
