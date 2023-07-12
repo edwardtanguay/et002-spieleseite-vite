@@ -1,9 +1,8 @@
-import { Preisliste } from "../../components/Preisliste";
 import waren from "../../data/Port Royale 3/waren.json";
 
-export const PageHandelPR3 = () => {
+export const PageBedarfsrechnerPR3 = () => {
   return /*html*/ `
-<div class="PageHandel">
+<div class="PageBedarfsrechner">
 	<h2 class="überschrift">Handel</h2>
 		<div>
 		
@@ -95,12 +94,12 @@ export const PageHandelPR3 = () => {
 			</table>
 		</section>
 	</div>
-		${Preisliste()}
+		
 </div>
 `;
 };
 
-export const attachPageHandelEvents = () => {
+export const attachPageBedarfsrechnerPR3Events = () => {
   const btn = document.querySelector(".btnProcess");
   btn?.addEventListener("click", (e: Event) => {
     e.preventDefault();

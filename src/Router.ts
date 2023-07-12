@@ -4,22 +4,25 @@ import {
   attachPageKampfPR3Events,
 } from "./pages/Port Royale 3/PageKampfPR3";
 import {
-  PageHandelPR3,
-  attachPageHandelEvents,
-} from "./pages/Port Royale 3/PageHandelPR3";
+  PageBedarfsrechnerPR3,
+  attachPageBedarfsrechnerPR3Events,
+} from "./pages/Port Royale 3/PageBedarfsrechnerPR3";
 import { PageAboutPR3 } from "./pages/Port Royale 3/PageAboutPR3";
 import { Page404 } from "./pages/Page404";
 import { PageHandelP4 } from "./pages/Patrizier 4/PageHandelP4";
+import { PagePreislistePR3 } from "./pages/Port Royale 3/PagePreislistePR3";
 
-const PR3pageNames = ["Handel (PR3)", "Kampf (PR3)", "About (PR3)"];
+const PR3pageNames = ["Preisliste","Handel (PR3)", "Kampf (PR3)", "About (PR3)"];
 const P4pageNames = ["Handel (P4)"];
 
 const currentPageIdCode = getSmartCurrentPageId();
 
 export const getCurrentPage = () => {
   switch (currentPageIdCode) {
+    case "preisliste(pr3)":
+      return PagePreislistePR3();
     case "handel(pr3)":
-      return PageHandelPR3();
+      return PageBedarfsrechnerPR3();
     case "kampf(pr3)":
       return pageKampfPR3();
     case "about(pr3)":
@@ -87,5 +90,5 @@ function getSmartCurrentPageId() {
 
 export const attachEvents = () => {
   attachPageKampfPR3Events();
-  attachPageHandelEvents();
+  attachPageBedarfsrechnerPR3Events();
 };
