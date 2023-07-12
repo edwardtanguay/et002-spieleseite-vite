@@ -1,4 +1,4 @@
-import schiffe from "../../data/schiffe.json";
+import schiffe from "../../data/Port Royale 3/schiffe.json";
 
 export const pageKampfPR3 = () => {
   return /*html*/ `

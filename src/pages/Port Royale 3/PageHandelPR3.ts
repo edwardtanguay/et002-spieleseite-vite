@@ -1,5 +1,5 @@
 import { Preisliste } from "../../components/Preisliste";
-import waren from "../../data/waren.json";
+import waren from "../../data/Port Royale 3/waren.json";
 
 export const PageHandelPR3 = () => {
   return /*html*/ `
