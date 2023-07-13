@@ -1,10 +1,10 @@
-import { Preisliste } from "../../components/Preisliste";
+import { PreislistePR3 } from "../../components/PreislistePR3";
 
 
 export const PagePreislistePR3 = () => {
   return /*html*/ `
   <div class="PagePreislistePR3">
-    ${Preisliste()}
+    ${PreislistePR3()}
   </div>
   
   `;}

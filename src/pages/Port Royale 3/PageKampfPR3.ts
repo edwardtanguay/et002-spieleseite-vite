@@ -89,7 +89,8 @@ export const attachPageKampfPR3Events = () => {
       matrosenElem.innerHTML = String(totalMen);
       swordsElem.innerHTML = String(totalSwords);
       firearmsElem.innerHTML = String(totalFirearms);
-    } else {
+    } 
+    else {
       const _errorMessageElem =
         document.querySelector<HTMLInputElement>(".errorMessage");
 

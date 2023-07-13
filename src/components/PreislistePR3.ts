@@ -1,6 +1,6 @@
 import waren from "../data/Port Royale 3/waren.json";
 
-export const Preisliste = () => {
+export const PreislistePR3 = () => {
     let tableHtml="";
 
     for(const warenItem of waren){
