@@ -57,7 +57,8 @@ export const attachPageKampfPR3Events = () => {
       "div.cardMatrosen h2"
     );
     const _swordsElem =
-      document.querySelector<HTMLInputElement>("div.cardSwords h2");
+      document.querySelector<HTMLInputElement>("div.cardSwords h2"
+    );
     const _firearmsElem = document.querySelector<HTMLInputElement>(
       "div.cardFirearms h2"
     );
@@ -89,8 +90,7 @@ export const attachPageKampfPR3Events = () => {
       matrosenElem.innerHTML = String(totalMen);
       swordsElem.innerHTML = String(totalSwords);
       firearmsElem.innerHTML = String(totalFirearms);
-    } 
-    else {
+    } else {
       const _errorMessageElem =
         document.querySelector<HTMLInputElement>(".errorMessage");
 
