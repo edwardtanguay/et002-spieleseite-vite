@@ -24,7 +24,7 @@ export const pageKampfPR3 = () => {
               return `<option value="${ship.name}">${ship.name}</option>`;
             })}
   			</select>
-		<button class="btnProcess">berechnen</button>		
+		<button class="btnProcessKpr3">berechnen</button>		
 	</form>
 	<section>
 		<div class="card cardMatrosen">
@@ -45,7 +45,7 @@ export const pageKampfPR3 = () => {
 };
 
 export const attachPageKampfPR3Events = () => {
-  const btn = document.querySelector(".btnProcess");
+  const btn = document.querySelector(".btnProcessKpr3");
   btn?.addEventListener("click", (e: Event) => {
     e.preventDefault();
 
