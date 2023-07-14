@@ -12,7 +12,7 @@ export const PageBedarfsrechnerPR3 = () => {
 		für
 			<input type="text" name="" placeholder="volle Tage" id="tage">
 		Tage
-			<button class="btnProcess">berechnen</button>
+			<button class="btnProcessbdrPR3">berechnen</button>
 			<input type="reset">
 		</form>
 		<section class="bedarfsrechner">
@@ -98,7 +98,7 @@ export const PageBedarfsrechnerPR3 = () => {
 };
 
 export const attachPageBedarfsrechnerPR3Events = () => {
-  const btn = document.querySelector(".btnProcess");
+  const btn = document.querySelector(".btnProcessbdrPR3");
   btn?.addEventListener("click", (e: Event) => {
     e.preventDefault();
 
