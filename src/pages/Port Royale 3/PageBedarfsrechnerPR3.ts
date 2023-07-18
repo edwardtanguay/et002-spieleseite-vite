@@ -89,7 +89,7 @@ export const PageBedarfsrechnerPR3 = () => {
 						<td id="bdrkonvoi">0</td>
 					</tr>
 				</tbody>
-			</table>
+			</table>   
 		</section>
 	</div>
 		

@@ -89,6 +89,12 @@ function getSmartCurrentPageId() {
 }
 
 export const attachEvents = () => {
-  attachPageKampfPR3Events();
-  attachPageBedarfsrechnerPR3Events();
+  switch (currentPageIdCode) {
+    case "preisliste(pr3)":
+      attachPageKampfPR3Events();
+      break;
+    case "bedarfsrechner(pr3)":
+      attachPageBedarfsrechnerPR3Events();
+      break;
+  }
 };
