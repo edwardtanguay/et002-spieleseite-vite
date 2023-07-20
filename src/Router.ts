@@ -90,7 +90,7 @@ function getSmartCurrentPageId() {
 
 export const attachEvents = () => {
   switch (currentPageIdCode) {
-    case "preisliste(pr3)":
+    case "kampf(pr3)":
       attachPageKampfPR3Events();
       break;
     case "bedarfsrechner(pr3)":
