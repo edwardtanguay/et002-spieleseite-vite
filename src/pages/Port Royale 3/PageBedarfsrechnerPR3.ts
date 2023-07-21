@@ -56,9 +56,9 @@ export const PageBedarfsrechnerPR3 = () => {
             <td class="pr3profitkaffee">0</td>
 					</tr>
 					<tr>
-						<td>Obst</td>
-						<td class="bdrobst">0</td>
-            <td class="pr3profitobst">0</td>
+						<td>Früchte</td>
+						<td class="bdrfrüchte">0</td>
+            <td class="pr3profitfrüchte">0</td>
 						<td>Kakao</td>
 						<td class="bdrkakao">0</td>
             <td class="pr3profitkakao">0</td>
@@ -161,12 +161,12 @@ export const attachPageBedarfsrechnerPR3Events = () => {
       document.querySelector<HTMLInputElement>(".pr3profitweizen");
     const _pr3profitweizen = waren.find((m) => m.name === "Weizen")?.verkauf;
 
-    // Obst
-    const _bdrobstElem = document.querySelector<HTMLInputElement>(".bdrobst");
-    const _bdobst = waren.find((m) => m.name === "Obst")?.bd;
-    const _pr3profitobstElem =
-      document.querySelector<HTMLInputElement>(".pr3profitobst");
-    const _pr3profitobst = waren.find((m) => m.name === "Obst")?.verkauf;
+    // Früchte
+    const _bdrfrüchteElem = document.querySelector<HTMLInputElement>(".bdrfrüchte");
+    const _bdfrüchte = waren.find((m) => m.name === "Früchte")?.bd;
+    const _pr3profitfrüchteElem =
+      document.querySelector<HTMLInputElement>(".pr3profitfrüchte");
+    const _pr3profitfrüchte = waren.find((m) => m.name === "Früchte")?.verkauf;
 
     // Mais
     const _bdrmaisElem = document.querySelector<HTMLInputElement>(".bdrmais");
@@ -313,8 +313,8 @@ export const attachPageBedarfsrechnerPR3Events = () => {
       _bdziegel &&
       _bdrweizenElem &&
       _bdweizen &&
-      _bdrobstElem &&
-      _bdobst &&
+      _bdrfrüchteElem &&
+      _bdfrüchte &&
       _bdrmaisElem &&
       _bdmais &&
       _bdrzuckerElem &&
@@ -353,8 +353,8 @@ export const attachPageBedarfsrechnerPR3Events = () => {
       _pr3profitziegel &&
       _pr3profitweizenElem &&
       _pr3profitweizen &&
-      _pr3profitobstElem &&
-      _pr3profitobst &&
+      _pr3profitfrüchteElem &&
+      _pr3profitfrüchte &&
       _pr3profitmaisElem &&
       _pr3profitmais &&
       _pr3profitzuckerElem &&
@@ -433,18 +433,18 @@ export const attachPageBedarfsrechnerPR3Events = () => {
         Math.round(Number(bdrweizenElem.innerHTML) * pr3profitweizen)
       );
 
-      // Obst
-      const bdrobstElem = _bdrobstElem;
-      const bdobst = _bdobst;
-      bdrobstElem.innerHTML = String(
+      // Früchte
+      const bdrfrüchteElem = _bdrfrüchteElem;
+      const bdfrüchte = _bdfrüchte;
+      bdrfrüchteElem.innerHTML = String(
         Math.round(
-          Number(bewohneranzahlElem.value) * bdobst * Number(tageElem.value)
+          Number(bewohneranzahlElem.value) * bdfrüchte * Number(tageElem.value)
         )
       );
-      const pr3profitobstElem = _pr3profitobstElem;
-      const pr3profitobst = _pr3profitobst;
-      pr3profitobstElem.innerHTML = String(
-        Math.round(Number(bdrobstElem.innerHTML) * pr3profitobst)
+      const pr3profitfrüchteElem = _pr3profitfrüchteElem;
+      const pr3profitfrüchte = _pr3profitfrüchte;
+      pr3profitfrüchteElem.innerHTML = String(
+        Math.round(Number(bdrfrüchteElem.innerHTML) * pr3profitfrüchte)
       );
 
       // Mais
@@ -683,7 +683,7 @@ export const attachPageBedarfsrechnerPR3Events = () => {
         Number(bdrholzElem.innerHTML) +
           Number(bdrziegelElem.innerHTML) +
           Number(bdrweizenElem.innerHTML) +
-          Number(bdrobstElem.innerHTML) +
+          Number(bdrfrüchteElem.innerHTML) +
           Number(bdrmaisElem.innerHTML) +
           Number(bdrzuckerElem.innerHTML) +
           Number(bdrhanfElem.innerHTML) +
@@ -706,7 +706,7 @@ export const attachPageBedarfsrechnerPR3Events = () => {
         Number(pr3profitholzElem.innerHTML) +
           Number(pr3profitziegelElem.innerHTML) +
           Number(pr3profitweizenElem.innerHTML) +
-          Number(pr3profitobstElem.innerHTML) +
+          Number(pr3profitfrüchteElem.innerHTML) +
           Number(pr3profitmaisElem.innerHTML) +
           Number(pr3profitzuckerElem.innerHTML) +
           Number(pr3profithanfElem.innerHTML) +

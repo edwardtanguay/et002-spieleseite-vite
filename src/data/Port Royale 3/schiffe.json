@@ -1,26 +1,130 @@
 [
-    {
-        "name":"Korvette",
-        "amount": 120
-    },
-    {
-        "name":"Fregatte",
-        "amount":130
-    },
-    {
-        "name":"Galeone",
-        "amount":180
-    },
-    {
-        "name":"Kriegsfregatte",
-        "amount":180
-    },
-    {
-        "name":"Kriegsgaleone",
-        "amount":230
-    },
-    {
-        "name":"Liner",
-        "amount":250
-    }
+  {
+    "name": "Pinasse",
+    "amount": 40,
+    "laderaum": 200,
+    "kaufpreis": 10.000,
+    "knoten": 10,
+    "täglichekosten": 100
+  },
+  {
+    "name": "Handelsfleute",
+    "amount": 40,
+    "laderaum": 800,
+    "kaufpreis": 50.000,
+    "knoten": 10,
+    "täglichekosten": 240
+  },
+  {
+    "name": "Schaluppe",
+    "amount": 70,
+    "laderaum": 200,
+    "kaufpreis": 19.000,
+    "knoten": 11,
+    "täglichekosten": 110
+  },
+  {
+    "name": "Brigg",
+    "amount": 80,
+    "laderaum": 250,
+    "kaufpreis": 27.000,
+    "knoten": 11,
+    "täglichekosten":
+   140},
+  {
+    "name": "Fleute",
+    "amount": 80,
+    "laderaum": 500,
+    "kaufpreis": 40.000,
+    "knoten": 10,
+    "täglichekosten": 220
+  },
+  {
+    "name": "Barke",
+    "amount": 100,
+    "laderaum": 250,
+    "kaufpreis": 36.000,
+    "knoten": 12,
+    "täglichekosten": 150
+  },
+  {
+    "name": "Piratenbarke",
+    "amount": 120,
+    "laderaum": 300,
+    "kaufpreis": 36.000,
+    "knoten": 12,
+    "täglichekosten": 180
+  },
+  {
+    "name": "Korvette",
+    "amount": 120,
+    "laderaum": 350,
+    "kaufpreis": 60.000,
+    "knoten": 12,
+    "täglichekosten": 200
+  },
+  {
+    "name": "Fregatte",
+    "amount": 130,
+    "laderaum": 400,
+    "kaufpreis": 70.000,
+    "knoten": 11,
+    "täglichekosten": 220
+  },
+  {
+    "name": "Militärkorvette",
+    "amount": 160,
+    "laderaum": 300,
+    "kaufpreis": 100.000,
+    "knoten": 11,
+    "täglichekosten": 210
+  },
+  {
+    "name": "Galeone",
+    "amount": 180,
+    "laderaum": 600,
+    "kaufpreis": 120.000,
+    "knoten": 10,
+    "täglichekosten": 280
+  },
+  {
+    "name": "Kriegsfregatte",
+    "amount": 180,
+    "laderaum": 350,
+    "kaufpreis": 120.000,
+    "knoten": 12,
+    "täglichekosten": 250
+  },
+  {
+    "name": "Karavelle",
+    "amount": 200,
+    "laderaum": 500,
+    "kaufpreis": 160.000,
+    "knoten": 11,
+    "täglichekosten": 300
+  },
+  {
+    "name": "Karacke",
+    "amount": 200,
+    "laderaum": 550,
+    "kaufpreis": 140.000,
+    "knoten": 12,
+    "täglichekosten": 320
+  },
+  {
+    "name": "Kriegsgaleone",
+    "amount": 230,
+    "laderaum": 400,
+    "kaufpreis": 180.000,
+    "knoten": 13,
+    "täglichekosten": 320
+   },
+  {
+    "name": "Liner",
+    "amount": 250,
+    "laderaum": 400,
+    "kaufpreis": 200.000,
+    "knoten": 14,
+    "täglichekosten": 340
+  }
 ]
