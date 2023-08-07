@@ -1,0 +1,142 @@
+[
+    {
+        "ware": "Holz",
+        "ankauf": 40,
+        "verkauf": 59,
+        "bedarf": 0.0013158,
+        "herstellungsstadt":[]
+    },
+    {
+        "ware": "Ziegel",
+        "ankauf": 40,
+        "verkauf": 59,
+        "bedarf": 0.0026316,
+        "herstellungsstadt":[]
+    },
+    {
+        "ware": "Getreide",
+        "ankauf": 40,
+        "verkauf": 59,
+        "bedarf": 0.0027632,
+        "herstellungsstadt":[]
+    },
+    {
+        "ware": "Hanf",
+        "ankauf": 40,
+        "verkauf": 59,
+        "bedarf": 0.0013158,
+        "herstellungsstadt":[]
+    },
+    {
+        "ware": "Wolle",
+        "ankauf": 60,
+        "verkauf": 90,
+        "bedarf": 0.0010526,
+        "herstellungsstadt":[]
+    },
+    {
+        "ware": "Rohmetalle",
+        "ankauf": 60,
+        "verkauf": 90,
+        "bedarf": 0.0010526,
+        "herstellungsstadt":[]
+    },
+    {
+        "ware": "Honig",
+        "ankauf": 60,
+        "verkauf": 90,
+        "bedarf": 0.0010526,
+        "herstellungsstadt":[]
+    },
+    {
+        "ware": "Salz",
+        "ankauf": 70,
+        "verkauf": 104,
+        "bedarf": 0.0005263,
+        "herstellungsstadt":[]
+    },
+    {
+        "ware": "Metallwaren",
+        "ankauf": 200,
+        "verkauf": 301,
+        "bedarf": 0.0007895,
+        "herstellungsstadt":[]
+    },
+    {
+        "ware": "Met",
+        "ankauf": 180,
+        "verkauf": 270,
+        "bedarf": 0.0010526,
+        "herstellungsstadt":[]
+    },
+    {
+        "ware": "Tuch",
+        "ankauf": 180,
+        "verkauf": 270,
+        "bedarf": 0.0005263,
+        "herstellungsstadt":[]
+    },
+    {
+        "ware": "Bier",
+        "ankauf": 90,
+        "verkauf": 135,
+        "bedarf": 0.0015789,
+        "herstellungsstadt":[]
+    },
+    {
+        "ware": "Stockfisch",
+        "ankauf": 155,
+        "verkauf": 232,
+        "bedarf": 0.0015789,
+        "herstellungsstadt":[]
+    },
+    {
+        "ware": "Kleidung",
+        "ankauf": 420,
+        "verkauf": 630,
+        "bedarf": 0.0005263,
+        "herstellungsstadt":[]
+    },
+    {
+        "ware": "Käse",
+        "ankauf": 120,
+        "verkauf": 180,
+        "bedarf": 0.0010526,
+        "herstellungsstadt":[]
+    },
+    {
+        "ware": "Pech",
+        "ankauf": 140,
+        "verkauf": 211,
+        "bedarf": 0.0010526,
+        "herstellungsstadt":[]
+    },
+    {
+        "ware": "Felle",
+        "ankauf": 360,
+        "verkauf": 540,
+        "bedarf": 0.0005263,
+        "herstellungsstadt":[]
+    },
+    {
+        "ware": "Fleisch",
+        "ankauf": 346,
+        "verkauf": 518,
+        "bedarf": 0.0005263,
+        "herstellungsstadt":[]
+    },
+    {
+        "ware": "Wein",
+        "ankauf": 480,
+        "verkauf": 720,
+        "bedarf": 0.0002632,
+        "herstellungsstadt":[]
+    },
+    {
+        "ware": "Gewürze",
+        "ankauf": 600,
+        "verkauf": 900,
+        "bedarf": 0.0002632,
+        "herstellungsstadt":[]
+    }
+]
