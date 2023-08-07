@@ -169,5 +169,47 @@ body {
         }
       }
     }
+    .BedarfsrechnerP4 {
+      color: #87cefa;
+      h3 {
+        text-decoration: underline;
+        margin-bottom: 1.3rem;
+        margin-top: 5rem;
+      }
+      table {
+        width: 50vw;
+        text-align: center;
+        border-spacing: 0.5rem;
+        
+        thead {
+          text-decoration: underline;
+          font-weight: bold;
+          font-size: 1.5rem;
+          color: blue;
+          background-color: #111;
+        }
+        tr:nth-child(even) {
+          background-color: #444;
+        }
+      }
+      form {
+        margin-bottom: 1.3rem;
+        font-size: 1.2rem;
+        input, .btnberechnenP4 {
+          background-color: #111;
+          color: #87cefa;
+          text-align: center;
+          font-size: 1.2rem;
+        }
+      }
+      #tage, #bewohneranzahl {
+        width: 15vw;
+        & :focus {
+          background-color: #111;
+          color: #87cefa;
+        }
+      }
+    }
+    }
   }
-}
+
