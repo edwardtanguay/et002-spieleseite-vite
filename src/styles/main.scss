@@ -24,36 +24,38 @@ body {
     font-size: 3rem;
   }
 
-  .dropbtn{
+  .dropbtn {
     display: inline-block;
-  color: #87cefa;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 1.3rem;
+    color: #87cefa;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 1.3rem;
   }
 
   .dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: azure;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
+    display: none;
+    position: absolute;
+    background-color: azure;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
   }
 
   .dropdown-content a {
-  color: blue;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  text-align: left;
-}
-.dropdown-content a:hover {background-color: #f1f1f1;}
+    color: blue;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  .dropdown-content a:hover {
+    background-color: #f1f1f1;
+  }
 
-.dropdown:hover .dropdown-content {
-  display: block;
-}
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
 
   nav {
     margin-bottom: 2rem;
@@ -128,7 +130,8 @@ body {
         }
       }
     }
-    .PageBedarfsrechnerPR3, .PagePreislistePR3 {
+    .PageBedarfsrechnerPR3,
+    .PagePreislistePR3 {
       color: #87cefa;
       h3 {
         text-decoration: underline;
@@ -139,7 +142,7 @@ body {
         width: 50vw;
         text-align: center;
         border-spacing: 0.5rem;
-        
+
         thead {
           text-decoration: underline;
           font-weight: bold;
@@ -154,14 +157,16 @@ body {
       form {
         margin-bottom: 1.3rem;
         font-size: 1.2rem;
-        input, .btnProcessbdrPR3 {
+        input,
+        .btnProcessbdrPR3 {
           background-color: #111;
           color: #87cefa;
           text-align: center;
           font-size: 1.2rem;
         }
       }
-      #tage, #bewohneranzahl {
+      #tage,
+      #bewohneranzahl {
         width: 15vw;
         & :focus {
           background-color: #111;
@@ -177,10 +182,10 @@ body {
         margin-top: 5rem;
       }
       table {
-        width: 50vw;
+        width: 75vw;
         text-align: center;
         border-spacing: 0.5rem;
-        
+
         thead {
           text-decoration: underline;
           font-weight: bold;
@@ -195,21 +200,43 @@ body {
       form {
         margin-bottom: 1.3rem;
         font-size: 1.2rem;
-        input, .btnberechnenP4 {
+        input,
+        .btnberechnenP4 {
           background-color: #111;
           color: #87cefa;
           text-align: center;
           font-size: 1.2rem;
         }
       }
-      #tage, #bewohneranzahl {
+      #tage,
+      #bewohneranzahl {
         width: 15vw;
         & :focus {
           background-color: #111;
           color: #87cefa;
         }
       }
-    }
+      .image-container {
+        position: relative;
+        display: inline-block;
+      }
+
+      .hover-text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        opacity: 0;
+        transition: opacity 0.3s ease;
+      }
+
+      .image-container:hover img {
+        opacity: 0;
+      }
+
+      .image-container:hover .hover-text {
+        opacity: 1;
+      }
     }
   }
-
+}

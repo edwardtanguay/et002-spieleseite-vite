@@ -30,86 +30,186 @@ export const PageBedarfsrechnerP4 = () => {
                     </thead>
                     <tbody>
                         <tr>
-                            <td><img src="https://i.imgur.com/jXFmwgM.png" alt=""> Holz</td>  
+                            <td>
+                              <div class="image-container">
+                                <img src="https://i.imgur.com/jXFmwgM.png" alt="" id="hover-image">
+                                <span class="hover-text">Holz</span>
+                              </div>
+                            </td>  
                             <td class="bedarfHolz">0</td>
                             <td class="gewinnHolz">0</td>
-                            <td><img src="https://i.imgur.com/YOFwz1B.png" alt=""> Tuch</td>
+                            <td>
+                              <div class="image-container">
+                                <img src="https://i.imgur.com/YOFwz1B.png" alt="" id="hover-image">
+                                <span class="hover-text">Tuch</span>
+                              </div>
+                            </td>
                             <td class="bedarfTuch">0</td>
                             <td class="gewinnTuch">0</td>
                             <td>Konvoigröße</td>
                             <td class="konvoi">0</td>
                         </tr>
                         <tr>
-                            <td><img src="https://i.imgur.com/O9Q8VNI.png" alt=""> Ziegel</td>
+                            <td>
+                              <div class="image-container">
+                                <img src="https://i.imgur.com/O9Q8VNI.png" alt="" id="hover-image">
+                                <span class="hover-text">Ziegel</span>
+                              </div>
+                            </td>
                             <td class="bedarfZiegel">0</td>
                             <td class="gewinnZiegel">0</td>
-                            <td><img src="https://i.imgur.com/xDjwe3P.png" alt=""> Bier</td>
+                            <td>
+                              <div class="image-container">
+                                <img src="https://i.imgur.com/xDjwe3P.png" alt="" id="hover-image">
+                                <span class="hover-text">Bier</span>
+                              </div>
+                            </td>
                             <td class="bedarfBier">0</td>
                             <td class="gewinnBier">0</td>
                             <td>Profit</td>
                             <td class="allprofit">0</td>
                         </tr>
                         <tr>
-                            <td><img src="https://i.imgur.com/w5xA9Dw.png" alt=""> Getreide</td>
+                            <td>
+                              <div class="image-container">
+                                <img src="https://i.imgur.com/w5xA9Dw.png" alt="" id="hover-image">
+                                <span class="hover-text">Getreide</span>
+                              </div>
+                            </td>
                             <td class="bedarfGetreide">0</td>
                             <td class="gewinnGetreide">0</td>
-                            <td><img src="https://i.imgur.com/a83mjFN.png" alt=""> Stockfisch</td>
+                            <td>
+                              <div class="image-container">
+                                <img src="https://i.imgur.com/a83mjFN.png" alt="" id="hover-image">
+                                <span class="hover-text">Stockfisch</span>
+                              </div>
+                            </td>
                             <td class="bedarfStockfisch">0</td>
                             <td class="gewinnStockfisch">0</td>
                         </tr>
                         <tr>
-                            <td><img src="https://i.imgur.com/kfeKCaL.png" alt=""> Hanf</td>
+                            <td>
+                              <div class="image-container">
+                                <img src="https://i.imgur.com/kfeKCaL.png" alt="" id="hover-image">
+                                <span class="hover-text">Hanf</span>
+                              </div>
+                            </td>
                             <td class="bedarfHanf">0</td>
                             <td class="gewinnHanf">0</td>
-                            <td><img src="https://i.imgur.com/D4gunqQ.png" alt=""> Kleidung</td>
+                            <td>
+                              <div class="image-container">
+                                <img src="https://i.imgur.com/D4gunqQ.png" alt="" id="hover-image">
+                                <span class="hover-text">Kleidung</span>
+                              </div>
+                            </td>
                             <td class="bedarfKleidung">0</td>
                             <td class="gewinnKleidung">0</td>
                         </tr>
                         <tr>
-                            <td><img src="https://i.imgur.com/OSnri1k.png" alt=""> Wolle</td>
+                            <td>
+                              <div class="image-container">
+                                <img src="https://i.imgur.com/OSnri1k.png" alt="" id="hover-image">
+                                <span class="hover-text">Wolle</span>
+                              </div>
+                            </td>
                             <td class="bedarfWolle">0</td>
                             <td class="gewinnWolle">0</td>
-                            <td><img src="https://i.imgur.com/ruH3Re4.png" alt=""> Käse</td>
+                            <td>
+                              <div class="image-container">
+                                <img src="https://i.imgur.com/ruH3Re4.png" alt="" id="hover-image">
+                                <span class="hover-text">Käse</span>
+                              </div>
+                            </td>
                             <td class="bedarfKäse">0</td>
                             <td class="gewinnKäse">0</td>
                         </tr>
                         <tr>
-                            <td><img src="https://i.imgur.com/20TLd5n.png" alt=""> Rohmetalle</td>
+                            <td>
+                              <div class="image-container">
+                                <img src="https://i.imgur.com/20TLd5n.png" alt="" id="hover-image">
+                                <span class="hover-text">Rohmetalle</span>
+                              </div>
+                            </td>
                             <td class="bedarfRohmetalle">0</td>
                             <td class="gewinnRohmetalle">0</td>
-                            <td><img src="https://i.imgur.com/XqSs53G.png" alt=""> Pech</td>
+                            <td>
+                              <div class="image-container">
+                                <img src="https://i.imgur.com/XqSs53G.png" alt="" id="hover-image">
+                                <span class="hover-text">Pech</span>
+                              </div>
+                            </td>
                             <td class="bedarfPech">0</td>
                             <td class="gewinnPech">0</td>
                         </tr>
                         <tr>
-                            <td><img src="https://i.imgur.com/phOM4r3.png" alt=""> Honig</td>
+                            <td>
+                              <div class="image-container">
+                                <img src="https://i.imgur.com/phOM4r3.png" alt="" id="hover-image">
+                                <span class="hover-text">Honig</span>
+                              </div>
+                            </td>
                             <td class="bedarfHonig">0</td>
                             <td class="gewinnHonig">0</td>
-                            <td><img src="https://i.imgur.com/tbwTJQ6.png" alt=""> Felle</td>
+                            <td>
+                              <div class="image-container">
+                                <img src="https://i.imgur.com/tbwTJQ6.png" alt="" id="hover-image">
+                                <span class="hover-text">Felle</span>
+                              </div>
+                            </td>
                             <td class="bedarfFelle">0</td>
                             <td class="gewinnFelle">0</td>
                         </tr>
                         <tr>
-                            <td><img src="https://i.imgur.com/bQjjiTO.png" alt=""> Salz</td>
+                            <td>
+                              <div class="image-container">
+                                <img src="https://i.imgur.com/bQjjiTO.png" alt="" id="hover-image">
+                                <span class="hover-text">Salz</span>
+                              </div>
+                            </td>
                             <td class="bedarfSalz">0</td>
                             <td class="gewinnSalz">0</td>
-                            <td><img src="https://i.imgur.com/H8pBKP5.png" alt=""> Fleisch</td>
+                            <td>
+                              <div class="image-container">
+                                <img src="https://i.imgur.com/H8pBKP5.png" alt="" id="hover-image">
+                                <span class="hover-text">Fleisch</span>
+                              </div>
+                            </td>
                             <td class="bedarfFleisch">0</td>
                             <td class="gewinnFleisch">0</td>
                         </tr>
                         <tr>
-                            <td><img src="https://i.imgur.com/pxN89Au.png" alt=""> Metallwaren</td>
+                            <td>
+                              <div class="image-container">
+                                <img src="https://i.imgur.com/pxN89Au.png" alt="" id="hover-image">
+                                <span class="hover-text">Metallwaren</span>
+                              </div>
+                            </td>
                             <td class="bedarfMetallwaren">0</td>
                             <td class="gewinnMetallwaren">0</td>
-                            <td><img src="https://i.imgur.com/DuPxToK.png" alt=""> Wein</td>
+                            <td>
+                              <div class="image-container">
+                                <img src="https://i.imgur.com/DuPxToK.png" alt="" id="hover-image">
+                                <span class="hover-text">Wein</span>
+                              </div>
+                            </td>
                             <td class="bedarfWein">0</td>
                             <td class="gewinnWein">0</td>
                         </tr>
                         <tr>
-                            <td><img src="https://i.imgur.com/F62Lf2D.png" alt=""> Met</td>
+                            <td>
+                              <div class="image-container">
+                                <img src="https://i.imgur.com/F62Lf2D.png" alt="" id="hover-image">
+                                <span class="hover-text">Met</span>
+                              </div>
+                            </td>
                             <td class="bedarfMet">0</td>
                             <td class="gewinnMet">0</td>
-                            <td><img src="https://i.imgur.com/thkER6g.png" alt=""> Gewürze</td>
+                            <td>
+                              <div class="image-container">
+                                <img src="https://i.imgur.com/thkER6g.png" alt="" id="hover-image">
+                                <span class="hover-text">Gewürze</span>
+                              </div>
+                            </td>
                             <td class="bedarfGewürze">0</td>
                             <td class="gewinnGewürze">0</td>
                         </tr>
