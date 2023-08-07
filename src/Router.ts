@@ -9,7 +9,7 @@ import {
 } from "./pages/Port Royale 3/PageBedarfsrechnerPR3";
 import { PageAboutPR3 } from "./pages/Port Royale 3/PageAboutPR3";
 import { Page404 } from "./pages/Page404";
-import { PageBedarfsrechnerP4 } from "./pages/Patrizier 4/PageBedarfsrechnerP4";
+import { PageBedarfsrechnerP4, attachPageBedarfsrechnerP4Events, } from "./pages/Patrizier 4/PageBedarfsrechnerP4";
 import { PagePreislistePR3 } from "./pages/Port Royale 3/PagePreislistePR3";
 
 const PR3pageNames = ["Preisliste (PR3)","Bedarfsrechner (PR3)", "Kampf (PR3)", "About (PR3)"];
@@ -89,12 +89,16 @@ function getSmartCurrentPageId() {
 }
 
 export const attachEvents = () => {
+console.log(currentPageIdCode)
   switch (currentPageIdCode) {
     case "kampf(pr3)":
       attachPageKampfPR3Events();
       break;
     case "bedarfsrechner(pr3)":
       attachPageBedarfsrechnerPR3Events();
+      break;
+    case "bedarfsrechner(p4)":
+      attachPageBedarfsrechnerP4Events();
       break;
   }
 };

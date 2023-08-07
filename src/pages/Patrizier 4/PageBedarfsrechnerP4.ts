@@ -1,6 +1,7 @@
+import waren from "../../data/Patrizier 4/waren.json";
 
 export const PageBedarfsrechnerP4 = () => {
-    return /*html*/ `
+  return /*html*/ `
     <div class="BedarfsrechnerP4">
         <h2 class="ueberschrift">Bedarfsrechner</h2>
         <div>
@@ -120,6 +121,57 @@ export const PageBedarfsrechnerP4 = () => {
     </div>
     
  `;
- };
+};
 
- 
+export const attachPageBedarfsrechnerP4Events = () => {
+  const btn = document.querySelector(".btnberechnenP4");
+  btn?.addEventListener("click", (e: Event) => {
+    e.preventDefault();
+
+    const _bewohneranzahlElem =
+      document.querySelector<HTMLInputElement>("#bewohneranzahl");
+
+    const _tageElem = document.querySelector<HTMLInputElement>("#tage");
+
+    const _konvoiElem = document.querySelector<HTMLInputElement>(".konvoi");
+
+    const _allprofitElem =
+      document.querySelector<HTMLInputElement>(".allprofit");
+
+    // Holz
+    const _bedarfholzElem =
+      document.querySelector<HTMLInputElement>(".bedarfholz");
+    const _bedarfholz = waren.find((m) => m.ware === "Holz")?.bedarf;
+    const _gewinnholzElem =
+      document.querySelector<HTMLInputElement>(".gewinnholz");
+    const _gewinnholz = waren.find((m) => m.ware === "Holz")?.verkauf;
+
+    if (
+      _bewohneranzahlElem &&
+      _tageElem &&
+      _konvoiElem &&
+      _allprofitElem &&
+      _bedarfholzElem &&
+      _bedarfholz &&
+      _gewinnholzElem &&
+      _gewinnholz
+    ) {
+      const bewohneranzahlElem = _bewohneranzahlElem;
+      const tageElem = _tageElem;
+
+      // Holz
+      const bedarfholzElem = _bedarfholzElem;
+      const bedarfholz = _bedarfholz;
+      bedarfholzElem.innerHTML = String(
+        Math.round(
+          Number(bewohneranzahlElem.value) * bedarfholz * Number(tageElem.value)
+        )
+      );
+      const gewinnholzElem = _gewinnholzElem;
+      const gewinnholz = _gewinnholz;
+      gewinnholzElem.innerHTML = String(
+        Math.round(Number(bedarfholzElem.innerHTML) * gewinnholz)
+      );
+    }
+  });
+};
