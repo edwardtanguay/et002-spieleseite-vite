@@ -701,6 +701,8 @@ export const attachPageBedarfsrechnerPR3Events = () => {
           Number(bdrrumElem.innerHTML) +
           Number(bdrbackwarenElem.innerHTML)
       );
+
+      // Profit
       const pr3profitElem = _pr3profitElem;
       pr3profitElem.innerHTML = String(
         Number(pr3profitholzElem.innerHTML) +
