@@ -11,8 +11,9 @@ import { PageAboutPR3 } from "./pages/Port Royale 3/PageAboutPR3";
 import { Page404 } from "./pages/Page404";
 import { PageBedarfsrechnerP4, attachPageBedarfsrechnerP4Events, } from "./pages/Patrizier 4/PageBedarfsrechnerP4";
 import { PagePreislistePR3 } from "./pages/Port Royale 3/PagePreislistePR3";
+import { PageSchiffePR3 } from "./pages/Port Royale 3/PageSchiffePR3";
 
-const PR3pageNames = ["Preisliste (PR3)","Bedarfsrechner (PR3)", "Kampf (PR3)", "About (PR3)"];
+const PR3pageNames = ["Preisliste (PR3)","Bedarfsrechner (PR3)", "Kampf (PR3)","Schiffe (PR3)", "About (PR3)"];
 const P4pageNames = ["Bedarfsrechner (P4)"];
 
 const currentPageIdCode = getSmartCurrentPageId();
@@ -25,6 +26,8 @@ export const getCurrentPage = () => {
       return PageBedarfsrechnerPR3();
     case "kampf(pr3)":
       return pageKampfPR3();
+    case "schiffe(pr3)":
+      return PageSchiffePR3();
     case "about(pr3)":
       return PageAboutPR3();
     case "bedarfsrechner(p4)":

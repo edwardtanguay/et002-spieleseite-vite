@@ -32,7 +32,7 @@ export const PageBedarfsrechnerPR3 = () => {
 					<tr>
 						<td>
               <div class="image-container">
-                <img src="https://i.imgur.com/xlUolxZ.png" alt="" id="hover-image">
+                <img src="img/PR3/PR3Holz.png" alt="" id="hover-image">
                 <span class="hover-text">Holz</span>
               </div>
             </td>
