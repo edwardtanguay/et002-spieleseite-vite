@@ -199,7 +199,7 @@ export const attachPageBedarfsrechnerPR3Events = () => {
 
     const _pr3profitElem =
       document.querySelector<HTMLInputElement>(".pr3profit");
-      
+
     // Holz
     const _bdrholzElem = document.querySelector<HTMLInputElement>(".bdrholz");
     const _bdholz = waren.find((m) => m.name === "Holz")?.bd;
@@ -585,8 +585,8 @@ export const attachPageBedarfsrechnerPR3Events = () => {
       bdrbaumwolleElem.innerHTML = String(
         Math.round(
           Number(bewohneranzahlElem.value) *
-            bdbaumwolle *
-            Number(tageElem.value)
+          bdbaumwolle *
+          Number(tageElem.value)
         )
       );
       const pr3profitbaumwolleElem = _pr3profitbaumwolleElem;
@@ -615,8 +615,8 @@ export const attachPageBedarfsrechnerPR3Events = () => {
       bdrfärbemittelElem.innerHTML = String(
         Math.round(
           Number(bewohneranzahlElem.value) *
-            bdfärbemittel *
-            Number(tageElem.value)
+          bdfärbemittel *
+          Number(tageElem.value)
         )
       );
       const pr3profitfärbemittelElem = _pr3profitfärbemittelElem;
@@ -729,8 +729,8 @@ export const attachPageBedarfsrechnerPR3Events = () => {
       bdrbackwarenElem.innerHTML = String(
         Math.round(
           Number(bewohneranzahlElem.value) *
-            bdbackwaren *
-            Number(tageElem.value)
+          bdbackwaren *
+          Number(tageElem.value)
         )
       );
       const pr3profitbackwarenElem = _pr3profitbackwarenElem;
@@ -743,50 +743,50 @@ export const attachPageBedarfsrechnerPR3Events = () => {
       const bdrkonvoiElem = _bdrkonvoiElem;
       bdrkonvoiElem.innerHTML = String(
         Number(bdrholzElem.innerHTML) +
-          Number(bdrziegelElem.innerHTML) +
-          Number(bdrweizenElem.innerHTML) +
-          Number(bdrfrüchteElem.innerHTML) +
-          Number(bdrmaisElem.innerHTML) +
-          Number(bdrzuckerElem.innerHTML) +
-          Number(bdrhanfElem.innerHTML) +
-          Number(bdrtuchElem.innerHTML) +
-          Number(bdrmetallElem.innerHTML) +
-          Number(bdrbaumwolleElem.innerHTML) +
-          Number(bdrwerkzeugElem.innerHTML) +
-          Number(bdrfärbemittelElem.innerHTML) +
-          Number(bdrkaffeeElem.innerHTML) +
-          Number(bdrkakaoElem.innerHTML) +
-          Number(bdrtabakElem.innerHTML) +
-          Number(bdrfleischElem.innerHTML) +
-          Number(bdrkleidungElem.innerHTML) +
-          Number(bdrseilElem.innerHTML) +
-          Number(bdrrumElem.innerHTML) +
-          Number(bdrbackwarenElem.innerHTML)
+        Number(bdrziegelElem.innerHTML) +
+        Number(bdrweizenElem.innerHTML) +
+        Number(bdrfrüchteElem.innerHTML) +
+        Number(bdrmaisElem.innerHTML) +
+        Number(bdrzuckerElem.innerHTML) +
+        Number(bdrhanfElem.innerHTML) +
+        Number(bdrtuchElem.innerHTML) +
+        Number(bdrmetallElem.innerHTML) +
+        Number(bdrbaumwolleElem.innerHTML) +
+        Number(bdrwerkzeugElem.innerHTML) +
+        Number(bdrfärbemittelElem.innerHTML) +
+        Number(bdrkaffeeElem.innerHTML) +
+        Number(bdrkakaoElem.innerHTML) +
+        Number(bdrtabakElem.innerHTML) +
+        Number(bdrfleischElem.innerHTML) +
+        Number(bdrkleidungElem.innerHTML) +
+        Number(bdrseilElem.innerHTML) +
+        Number(bdrrumElem.innerHTML) +
+        Number(bdrbackwarenElem.innerHTML)
       );
 
       // Profit
       const pr3profitElem = _pr3profitElem;
       pr3profitElem.innerHTML = String(
         Number(pr3profitholzElem.innerHTML) +
-          Number(pr3profitziegelElem.innerHTML) +
-          Number(pr3profitweizenElem.innerHTML) +
-          Number(pr3profitfrüchteElem.innerHTML) +
-          Number(pr3profitmaisElem.innerHTML) +
-          Number(pr3profitzuckerElem.innerHTML) +
-          Number(pr3profithanfElem.innerHTML) +
-          Number(pr3profittuchElem.innerHTML) +
-          Number(pr3profitmetallElem.innerHTML) +
-          Number(pr3profitbaumwolleElem.innerHTML) +
-          Number(pr3profitwerkzeugElem.innerHTML) +
-          Number(pr3profitfärbemittelElem.innerHTML) +
-          Number(pr3profitkaffeeElem.innerHTML) +
-          Number(pr3profitkakaoElem.innerHTML) +
-          Number(pr3profittabakElem.innerHTML) +
-          Number(pr3profitfleischElem.innerHTML) +
-          Number(pr3profitkleidungElem.innerHTML) +
-          Number(pr3profitseilElem.innerHTML) +
-          Number(pr3profitrumElem.innerHTML) +
-          Number(pr3profitbackwarenElem.innerHTML)
+        Number(pr3profitziegelElem.innerHTML) +
+        Number(pr3profitweizenElem.innerHTML) +
+        Number(pr3profitfrüchteElem.innerHTML) +
+        Number(pr3profitmaisElem.innerHTML) +
+        Number(pr3profitzuckerElem.innerHTML) +
+        Number(pr3profithanfElem.innerHTML) +
+        Number(pr3profittuchElem.innerHTML) +
+        Number(pr3profitmetallElem.innerHTML) +
+        Number(pr3profitbaumwolleElem.innerHTML) +
+        Number(pr3profitwerkzeugElem.innerHTML) +
+        Number(pr3profitfärbemittelElem.innerHTML) +
+        Number(pr3profitkaffeeElem.innerHTML) +
+        Number(pr3profitkakaoElem.innerHTML) +
+        Number(pr3profittabakElem.innerHTML) +
+        Number(pr3profitfleischElem.innerHTML) +
+        Number(pr3profitkleidungElem.innerHTML) +
+        Number(pr3profitseilElem.innerHTML) +
+        Number(pr3profitrumElem.innerHTML) +
+        Number(pr3profitbackwarenElem.innerHTML)
       );
     } else {
       const _errorMessageElem =
